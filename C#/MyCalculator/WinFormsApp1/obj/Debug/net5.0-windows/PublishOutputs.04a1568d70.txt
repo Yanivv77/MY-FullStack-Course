@@ -1,0 +1,5 @@
+C:\Users\Yaniv\Desktop\C#\MyCalculator\WinFormsApp1\bin\Release\net5.0-windows\publish\MyCalculator.exe
+C:\Users\Yaniv\Desktop\C#\MyCalculator\WinFormsApp1\bin\Release\net5.0-windows\publish\MyCalculator.dll
+C:\Users\Yaniv\Desktop\C#\MyCalculator\WinFormsApp1\bin\Release\net5.0-windows\publish\MyCalculator.deps.json
+C:\Users\Yaniv\Desktop\C#\MyCalculator\WinFormsApp1\bin\Release\net5.0-windows\publish\MyCalculator.runtimeconfig.json
+C:\Users\Yaniv\Desktop\C#\MyCalculator\WinFormsApp1\bin\Release\net5.0-windows\publish\MyCalculator.pdb
