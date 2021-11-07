@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yaniv\\Desktop\\C#\\MY-FullStack-Course\\C#\\ConsoleApp1\\ConsoleApp1.csproj",
-      "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\Yaniv\\Desktop\\C#\\MY-FullStack-Course\\C#\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\Yaniv\\Desktop\\C#\\MY-FullStack-Course\\C#\\ConsoleApp1\\School.csproj",
+      "projectName": "School",
+      "projectPath": "C:\\Users\\Yaniv\\Desktop\\C#\\MY-FullStack-Course\\C#\\ConsoleApp1\\School.csproj",
       "packagesPath": "C:\\Users\\Yaniv\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Yaniv\\Desktop\\C#\\MY-FullStack-Course\\C#\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",

@@ -8,10 +8,10 @@ namespace ConsoleApp1
 {
     abstract class Person
     {
-        private int id;
-        private string first_name;
-        private string last_name;
-        private DateTime Birthday;
+        protected int id;
+        protected string first_name;
+        protected string last_name;
+        protected DateTime Birthday;
 
 
 

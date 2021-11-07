@@ -8,8 +8,8 @@ namespace ConsoleApp1
 {
     class Teacher : Person
     {
+        string teachingfield;
         
-
 
     }
 }

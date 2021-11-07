@@ -6,10 +6,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Teacher Avi = new Product("Avi", "Male");
-            Avi.Name = "Ben";
+            Teacher Avi = new Teacher();
+            
 
-            Console.WriteLine(Avi.ToString());
+            
             
 
 
