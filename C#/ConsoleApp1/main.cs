@@ -6,13 +6,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Person Avi = new Person("Avi", "Male");
-
-            Console.WriteLine(Avi.ToString());
+            Teacher Avi = new Product("Avi", "Male");
             Avi.Name = "Ben";
 
-
-            
             Console.WriteLine(Avi.ToString());
             
 

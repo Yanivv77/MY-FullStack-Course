@@ -6,44 +6,48 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Person
+    abstract class Person
     {
-        int id;
-        string name;
-        string gender;
-       
+        private int id;
+        private string first_name;
+        private string last_name;
+        private DateTime Birthday;
 
-        public Person(string name, string gender)
+
+
+        public Person(int id, string first_name, string last_name, DateTime birthday)
         {
-            this.name = Name;
-            this.gender = Gender;
-            
+            this.Id = id;
+            this.First_name = first_name;
+            this.Last_name = last_name;
+            Birthday1 = birthday;
+        }
+
+        public int Id 
+        { get => id; set => id = value; }
+        public string First_name 
+        { get => first_name; set => first_name = value; }
+        public string Last_name 
+        { get => last_name; set => last_name = value; }
+        public DateTime Birthday1 
+        { get => Birthday; set => Birthday = value; }
+
+
+
+        public override bool Equals(object obj)
+        {
+            return obj is Person person &&
+                   Id == person.Id &&
+                   First_name == person.First_name &&
+                   Last_name == person.Last_name &&
+                   Birthday1 == person.Birthday1;
         }
 
 
-        public string Name
-        {
-            get { return this.name; }
-            set { this.name = value; }
-        }
-   
-
-        public string Gender
-        {
-        get { return gender; }
-        set { this.gender = Gender; }
-    }
-
-        public int Id
-        {
-            get { return this.Id; }
-            set { this.Id = Id; }
-        }
-        
 
         public override string ToString()
         {
-            return "Person: " + name + " " + gender;
+            return base.ToString();
         }
     }
 }
