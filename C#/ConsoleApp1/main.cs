@@ -7,7 +7,16 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Person Avi = new Person("Avi", "Male");
+
+            Console.WriteLine(Avi.ToString());
+            Avi.Name = "Ben";
+
+
             
+            Console.WriteLine(Avi.ToString());
+            
+
+
         }
     }
 }
