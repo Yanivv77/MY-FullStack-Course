@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = DrawWinApp
-build_property.ProjectDir = C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\DrawWinApp\
+build_property.ProjectDir = C:\Users\Yaniv\Desktop\ProgammingCs\Lecture03\DrawWinApp\

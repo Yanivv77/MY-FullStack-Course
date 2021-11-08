@@ -10,3 +10,15 @@ C:\Users\Yaniv\Desktop\ProgammingCs\Base\BaseLib\obj\Debug\net5.0\BaseLib.csproj
 C:\Users\Yaniv\Desktop\ProgammingCs\Base\BaseLib\obj\Debug\net5.0\BaseLib.dll
 C:\Users\Yaniv\Desktop\ProgammingCs\Base\BaseLib\obj\Debug\net5.0\ref\BaseLib.dll
 C:\Users\Yaniv\Desktop\ProgammingCs\Base\BaseLib\obj\Debug\net5.0\BaseLib.pdb
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\BaseLib\bin\Debug\net5.0\BaseLib.deps.json
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\BaseLib\bin\Debug\net5.0\BaseLib.dll
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\BaseLib\bin\Debug\net5.0\ref\BaseLib.dll
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\BaseLib\bin\Debug\net5.0\BaseLib.pdb
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\BaseLib\obj\Debug\net5.0\BaseLib.csproj.AssemblyReference.cache
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\BaseLib\obj\Debug\net5.0\BaseLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\BaseLib\obj\Debug\net5.0\BaseLib.AssemblyInfoInputs.cache
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\BaseLib\obj\Debug\net5.0\BaseLib.AssemblyInfo.cs
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\BaseLib\obj\Debug\net5.0\BaseLib.csproj.CoreCompileInputs.cache
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\BaseLib\obj\Debug\net5.0\BaseLib.dll
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\BaseLib\obj\Debug\net5.0\ref\BaseLib.dll
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\BaseLib\obj\Debug\net5.0\BaseLib.pdb

@@ -28,6 +28,7 @@ C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\Base.WinForms\obj\Debug\net
 C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\Base.WinForms\obj\Debug\net5.0-windows\Base.WinForms.AssemblyInfoInputs.cache
 C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\Base.WinForms\obj\Debug\net5.0-windows\Base.WinForms.AssemblyInfo.cs
 C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\Base.WinForms\obj\Debug\net5.0-windows\Base.WinForms.csproj.CoreCompileInputs.cache
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\Base.WinForms\obj\Debug\net5.0-windows\Base.WinForms.csproj.CopyComplete
 C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\Base.WinForms\obj\Debug\net5.0-windows\Base.WinForms.dll
 C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\Base.WinForms\obj\Debug\net5.0-windows\ref\Base.WinForms.dll
 C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\Base.WinForms\obj\Debug\net5.0-windows\Base.WinForms.pdb

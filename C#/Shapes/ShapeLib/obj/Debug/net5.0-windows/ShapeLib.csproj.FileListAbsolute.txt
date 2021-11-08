@@ -28,7 +28,6 @@ C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\ShapeLib\obj\Debug\net5.0-w
 C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.AssemblyInfoInputs.cache
 C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.AssemblyInfo.cs
 C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.csproj.CoreCompileInputs.cache
-C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.csproj.CopyComplete
 C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.dll
 C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\ShapeLib\obj\Debug\net5.0-windows\ref\ShapeLib.dll
 C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.pdb
