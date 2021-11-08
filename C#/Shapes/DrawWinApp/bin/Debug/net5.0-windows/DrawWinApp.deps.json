@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "DrawWinApp/1.0.0": {
+        "dependencies": {
+          "Base.WinForms": "1.0.0",
+          "BaseLib": "1.0.0",
+          "ShapeLib": "1.0.0"
+        },
+        "runtime": {
+          "DrawWinApp.dll": {}
+        }
+      },
+      "Base.WinForms/1.0.0": {
+        "dependencies": {
+          "BaseLib": "1.0.0"
+        },
+        "runtime": {
+          "Base.WinForms.dll": {}
+        }
+      },
+      "BaseLib/1.0.0": {
+        "runtime": {
+          "BaseLib.dll": {}
+        }
+      },
+      "ShapeLib/1.0.0": {
+        "dependencies": {
+          "Base.WinForms": "1.0.0"
+        },
+        "runtime": {
+          "ShapeLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DrawWinApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Base.WinForms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BaseLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShapeLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

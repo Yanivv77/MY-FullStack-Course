@@ -1,0 +1,114 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "Base.WinForms/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BaseLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Base.WinForms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Base.WinForms.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "BaseLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BaseLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaseLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Base.WinForms/1.0.0": {
+      "type": "project",
+      "path": "../Base.WinForms/Base.WinForms.csproj",
+      "msbuildProject": "../Base.WinForms/Base.WinForms.csproj"
+    },
+    "BaseLib/1.0.0": {
+      "type": "project",
+      "path": "../BaseLib/BaseLib.csproj",
+      "msbuildProject": "../BaseLib/BaseLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "Base.WinForms >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Yaniv\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Yaniv\\Desktop\\MY-FullStack-Course\\C#\\Shapes\\ShapeLib\\ShapeLib.csproj",
+      "projectName": "ShapeLib",
+      "projectPath": "C:\\Users\\Yaniv\\Desktop\\MY-FullStack-Course\\C#\\Shapes\\ShapeLib\\ShapeLib.csproj",
+      "packagesPath": "C:\\Users\\Yaniv\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Yaniv\\Desktop\\MY-FullStack-Course\\C#\\Shapes\\ShapeLib\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Yaniv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Yaniv\\Desktop\\MY-FullStack-Course\\C#\\Shapes\\Base.WinForms\\Base.WinForms.csproj": {
+              "projectPath": "C:\\Users\\Yaniv\\Desktop\\MY-FullStack-Course\\C#\\Shapes\\Base.WinForms\\Base.WinForms.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,4 +1,7 @@
-﻿namespace ShapeLib
+﻿using Base.WinForms;
+using BaseLib;
+
+namespace ShapeLib
 {
     public class Triangle : Shape
     {
@@ -16,9 +19,10 @@
             Points[2] = p2;
         }
 
-        public override void Draw()
+        public override void Draw(DrawContext dc)
         {
-            
+            //dc.DrawLineLoop(Points);
+            dc.DrawPolygon(Points);
         }
     }
 }

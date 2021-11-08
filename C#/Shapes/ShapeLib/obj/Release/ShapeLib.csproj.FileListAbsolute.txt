@@ -1,6 +1,0 @@
-C:\Users\Yaniv\Desktop\C#\MY-FullStack-Course\C#\Shapes\ShapeLib\bin\Release\ClassLibrary.dll
-C:\Users\Yaniv\Desktop\C#\MY-FullStack-Course\C#\Shapes\ShapeLib\bin\Release\ClassLibrary.pdb
-C:\Users\Yaniv\Desktop\C#\MY-FullStack-Course\C#\Shapes\ShapeLib\obj\Release\ShapeLib.csproj.AssemblyReference.cache
-C:\Users\Yaniv\Desktop\C#\MY-FullStack-Course\C#\Shapes\ShapeLib\obj\Release\ShapeLib.csproj.CoreCompileInputs.cache
-C:\Users\Yaniv\Desktop\C#\MY-FullStack-Course\C#\Shapes\ShapeLib\obj\Release\ClassLibrary.dll
-C:\Users\Yaniv\Desktop\C#\MY-FullStack-Course\C#\Shapes\ShapeLib\obj\Release\ClassLibrary.pdb

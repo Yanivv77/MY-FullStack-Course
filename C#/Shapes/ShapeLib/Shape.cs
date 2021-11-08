@@ -1,4 +1,7 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
+using Base.WinForms;
+using BaseLib;
 
 namespace ShapeLib
 {
@@ -8,6 +11,6 @@ namespace ShapeLib
 
         public Vector2d Center { get; set; }
 
-        public abstract void Draw();
+        public abstract void Draw(DrawContext dc);
     }
 }
