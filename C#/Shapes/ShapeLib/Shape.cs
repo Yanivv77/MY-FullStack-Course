@@ -9,8 +9,13 @@ namespace ShapeLib
     {
         public Color Color { get; set; }
 
-        public Vector2d Center { get; set; }
+        public Vector2d Center { get; set; } = new Vector2d();
 
         public abstract void Draw(DrawContext dc);
+
+        public static implicit operator Shape(Rectangle v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
