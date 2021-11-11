@@ -47,3 +47,27 @@ C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\DrawWinApp\obj\Debug\net5.0
 C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\DrawWinApp\obj\Debug\net5.0-windows\ref\DrawWinApp.dll
 C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.pdb
 C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.genruntimeconfig.cache
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.csproj.AssemblyReference.cache
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.Form1.resources
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.csproj.GenerateResource.cache
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.AssemblyInfoInputs.cache
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.AssemblyInfo.cs
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.csproj.CoreCompileInputs.cache
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.dll
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\obj\Debug\net5.0-windows\ref\DrawWinApp.dll
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.pdb
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\bin\Debug\net5.0-windows\DrawWinApp.exe
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\bin\Debug\net5.0-windows\DrawWinApp.deps.json
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\bin\Debug\net5.0-windows\DrawWinApp.runtimeconfig.json
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\bin\Debug\net5.0-windows\DrawWinApp.runtimeconfig.dev.json
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\bin\Debug\net5.0-windows\DrawWinApp.dll
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\bin\Debug\net5.0-windows\ref\DrawWinApp.dll
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\bin\Debug\net5.0-windows\DrawWinApp.pdb
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\bin\Debug\net5.0-windows\Base.WinForms.dll
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\bin\Debug\net5.0-windows\BaseLib.dll
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\bin\Debug\net5.0-windows\ShapeLib.dll
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\bin\Debug\net5.0-windows\Base.WinForms.pdb
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\bin\Debug\net5.0-windows\BaseLib.pdb
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\bin\Debug\net5.0-windows\ShapeLib.pdb
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.genruntimeconfig.cache

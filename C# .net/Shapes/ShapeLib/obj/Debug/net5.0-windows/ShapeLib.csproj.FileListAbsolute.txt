@@ -31,3 +31,19 @@ C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\ShapeLib\obj\Debug\net5.0-w
 C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.dll
 C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\ShapeLib\obj\Debug\net5.0-windows\ref\ShapeLib.dll
 C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.pdb
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\ShapeLib\bin\Debug\net5.0-windows\ShapeLib.deps.json
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\ShapeLib\bin\Debug\net5.0-windows\ShapeLib.dll
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\ShapeLib\bin\Debug\net5.0-windows\ref\ShapeLib.dll
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\ShapeLib\bin\Debug\net5.0-windows\ShapeLib.pdb
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\ShapeLib\bin\Debug\net5.0-windows\Base.WinForms.dll
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\ShapeLib\bin\Debug\net5.0-windows\BaseLib.dll
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\ShapeLib\bin\Debug\net5.0-windows\Base.WinForms.pdb
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\ShapeLib\bin\Debug\net5.0-windows\BaseLib.pdb
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.csproj.AssemblyReference.cache
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.AssemblyInfoInputs.cache
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.AssemblyInfo.cs
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.csproj.CoreCompileInputs.cache
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.dll
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\ShapeLib\obj\Debug\net5.0-windows\ref\ShapeLib.dll
+C:\Users\Yaniv\Desktop\MY-FullStack-Course\C# .net\Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.pdb

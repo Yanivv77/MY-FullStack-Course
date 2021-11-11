@@ -20,7 +20,11 @@ namespace CollectionDemos
             var people = JsonConvert.DeserializeObject<List<Person>>(text); // Convert text to object
             var orderby = people.OrderBy(x => x.first_name);
             var str = String.Concat(orderby.Select(o => o.ToString()));
-           
+
+            Dictionary<int, Person> pepoleMap = people.ToDictionary(x => x.id);
+            var vip = pepoleMap[20];
+
+
 
 
 

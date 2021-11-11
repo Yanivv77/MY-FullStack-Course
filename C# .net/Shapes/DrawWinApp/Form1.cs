@@ -1,16 +1,17 @@
-﻿using System.Drawing;
-using System.Windows.Forms;
-using Base.WinForms;
-using BaseLib;
+﻿using Base.WinForms;
 using ShapeLib;
+using System.Drawing;
+using System.Windows.Forms;
 using static BaseLib.MathFunctions;
-
-
+using Rectangle = ShapeLib.Rectangle;
 
 namespace DrawWinApp
 {
     public partial class Form1 : Form
     {
+
+
+        Shape _triangle;
         Shape _diamond;
         Shape _circle;
         Shape _rectangle;
@@ -18,54 +19,65 @@ namespace DrawWinApp
 
         public Form1()
         {
-            InitializeComponent();
 
+            //WinForms Size
+
+            InitializeComponent();
             drawControl.MinX = -1;
             drawControl.MaxX = 1;
             drawControl.MinY = -1;
             drawControl.MaxY = 1;
-
             drawControl.DrawEvent += DrawControl_DrawEvent;
+            ;
 
-            //             _circle = new Circle
-            //             {
-            //                 Center = vec2(0,0),
-            //                 Radius = 0.25
-            //             };
-            // 
-            //             _diamond = new Diamond(vec2(-0.3, 0), vec2(0, -0.6), vec2(0.3, 0),vec2(0, 0.6))
-            //             {
-            //                 Center = vec2(0, 0),
-            //             };
 
-            _rectangle = new Rectangle(0.5, 0.6);
-           
+            //Shape Creation
 
+            _circle = new Circle(0.8);
+            _triangle = new Triangle(vec2(-0.3, 0), vec2(0, -0.6), vec2(0.3, 0));
+            _diamond = new Diamond(vec2(-0.3, 0), vec2(0, -0.6), vec2(0.3, 0), vec2(0, 0.6));
+            _rectangle = new Rectangle(0.8, 0.4);
 
 
         }
 
         void DrawControl_DrawEvent(object sender, Base.WinForms.DrawControl.DrawEventArgs e)
         {
-            DrawContext dc = e.DrawContext;
-
-            //dc.PointSize = 37;
-            //dc.FillColor = Color.Red;
-
-            //dc.DrawPoints(vec2(0,0), vec2(0.5, -0.5));
-
-            //dc.LineWidth = 5;
-            //dc.LineColor = Color.Blue;
 
 
-            //dc.DrawLines(vec2(0, 0), vec2(0.5, -0.5));
+            /*
+           // Draw green circle
+           DrawContext drawCircle = e.DrawContext;
+           drawCircle.FillColor = Color.Green;
+           drawCircle.LineWidth = 5;
+           _circle.Draw(drawCircle);
+           */
 
-            dc.LineColor = Color.BlueViolet;
-            dc.FillColor = Color.Red;
-            dc.LineWidth = 5;
-            _rectangle.Draw(dc);
 
-           
+            /* 
+            // Draw yellow triangle
+            DrawContext drawTriangle = e.DrawContext;
+            drawTriangle.FillColor = Color.Yellow;
+            drawTriangle.LineWidth = 5;
+            _triangle.Draw(drawTriangle);
+            */
+
+
+            /*    
+           // Draw red diamond
+           DrawContext drawDiamond = e.DrawContext;
+           drawDiamond.FillColor = Color.Red;
+           drawDiamond.LineWidth = 5;
+          _diamond.Draw(drawDiamond);
+           */
+
+            // Draw blue rectangle
+            DrawContext drawRec = e.DrawContext;
+            drawRec.FillColor = Color.Blue;
+            drawRec.LineWidth = 5;
+            _rectangle.Draw(drawRec);
+
+
         }
     }
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yaniv\\Desktop\\MY-FullStack-Course\\C#\\Shapes\\BaseLib\\BaseLib.csproj",
+      "projectUniqueName": "C:\\Users\\Yaniv\\Desktop\\MY-FullStack-Course\\C# .net\\Shapes\\BaseLib\\BaseLib.csproj",
       "projectName": "BaseLib",
-      "projectPath": "C:\\Users\\Yaniv\\Desktop\\MY-FullStack-Course\\C#\\Shapes\\BaseLib\\BaseLib.csproj",
+      "projectPath": "C:\\Users\\Yaniv\\Desktop\\MY-FullStack-Course\\C# .net\\Shapes\\BaseLib\\BaseLib.csproj",
       "packagesPath": "C:\\Users\\Yaniv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yaniv\\Desktop\\MY-FullStack-Course\\C#\\Shapes\\BaseLib\\obj\\",
+      "outputPath": "C:\\Users\\Yaniv\\Desktop\\MY-FullStack-Course\\C# .net\\Shapes\\BaseLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yaniv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

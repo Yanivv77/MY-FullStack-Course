@@ -9,6 +9,11 @@ namespace ShapeLib
     {
         public double Radius { get; set; }
 
+        public Circle(double radius)
+        {
+            Radius = radius;
+        }
+
         public override void Draw(DrawContext dc)
         {
             dc.DrawCircle(Center, Radius);

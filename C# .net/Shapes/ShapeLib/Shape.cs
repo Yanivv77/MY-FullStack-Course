@@ -13,9 +13,6 @@ namespace ShapeLib
 
         public abstract void Draw(DrawContext dc);
 
-        public static implicit operator Shape(Rectangle v)
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }
