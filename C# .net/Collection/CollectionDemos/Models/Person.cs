@@ -22,6 +22,6 @@ namespace LinqDemo.Models
        
 
 
-        public override string ToString() => $" [ id:{id} ]     [ Name: {first_name } {last_name }] [Email: {email}] [gender: {gender }] [IP: {ip_address }]";
+        public override string ToString() => $" [ ID:{id} | Name: {first_name } {last_name } | Email: {email} | Gender: {gender } | IP: {ip_address }]";
     }
 }
