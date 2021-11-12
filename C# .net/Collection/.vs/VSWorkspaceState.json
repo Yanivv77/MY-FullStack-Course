@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CollectionDemos"
   ],
-  "SelectedNode": "\\CollectionDemos",
+  "SelectedNode": "\\CollectionDemos\\MyCollectionDemo.cs",
   "PreviewInSolutionExplorer": false
 }

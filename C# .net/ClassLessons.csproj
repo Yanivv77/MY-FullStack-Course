@@ -1,0 +1,475 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{808A8669-D364-465E-A7DA-EC27A85BBB53}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>ClassLessons</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\C#\v16\.suo" />
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="C# Cheatsheet.pdf" />
+    <None Include="Collection\.vs\Collection\v16\.suo" />
+    <None Include="Collection\.vs\linq\v16\.suo" />
+    <None Include="Collection\.vs\ProjectSettings.json" />
+    <None Include="Collection\.vs\slnx.sqlite" />
+    <None Include="Collection\.vs\VSWorkspaceState.json" />
+    <None Include="Collection\CollectionDemos\.vs\CollectionDemos\DesignTimeBuild\.dtbcache.v2" />
+    <None Include="Collection\CollectionDemos\.vs\CollectionDemos\v16\.suo" />
+    <None Include="Collection\CollectionDemos\bin\Debug\net5.0\CollectionDemos.deps.json" />
+    <None Include="Collection\CollectionDemos\bin\Debug\net5.0\CollectionDemos.runtimeconfig.dev.json" />
+    <None Include="Collection\CollectionDemos\bin\Debug\net5.0\CollectionDemos.runtimeconfig.json" />
+    <None Include="Collection\CollectionDemos\bin\Debug\net5.0\Data\MOCK_DATA.json" />
+    <None Include="Collection\CollectionDemos\CollectionDemos.csproj" />
+    <None Include="Collection\CollectionDemos\Data\MOCK_DATA.json" />
+    <None Include="Collection\CollectionDemos\obj\CollectionDemos.csproj.nuget.dgspec.json" />
+    <None Include="Collection\CollectionDemos\obj\CollectionDemos.csproj.nuget.g.props" />
+    <None Include="Collection\CollectionDemos\obj\CollectionDemos.csproj.nuget.g.targets" />
+    <None Include="Collection\CollectionDemos\obj\Debug\net5.0\CollectionDemos.AssemblyInfoInputs.cache" />
+    <None Include="Collection\CollectionDemos\obj\Debug\net5.0\CollectionDemos.assets.cache" />
+    <None Include="Collection\CollectionDemos\obj\Debug\net5.0\CollectionDemos.csproj.AssemblyReference.cache" />
+    <None Include="Collection\CollectionDemos\obj\Debug\net5.0\CollectionDemos.csproj.CoreCompileInputs.cache" />
+    <None Include="Collection\CollectionDemos\obj\Debug\net5.0\CollectionDemos.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="Collection\CollectionDemos\obj\Debug\net5.0\CollectionDemos.genruntimeconfig.cache" />
+    <None Include="Collection\CollectionDemos\obj\project.assets.json" />
+    <None Include="Collection\CollectionDemos\obj\project.nuget.cache" />
+    <None Include="Collection\CollectionDemos\obj\Release\net5.0\CollectionDemos.AssemblyInfoInputs.cache" />
+    <None Include="Collection\CollectionDemos\obj\Release\net5.0\CollectionDemos.assets.cache" />
+    <None Include="Collection\CollectionDemos\obj\Release\net5.0\CollectionDemos.csproj.AssemblyReference.cache" />
+    <None Include="Collection\CollectionDemos\obj\Release\net5.0\CollectionDemos.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="MyCalculator\.vs\MyCalculator\DesignTimeBuild\.dtbcache.v2" />
+    <None Include="MyCalculator\.vs\MyCalculator\v16\.suo" />
+    <None Include="MyCalculator\.vs\slnx.sqlite" />
+    <None Include="MyCalculator\.vs\VSWorkspaceState.json" />
+    <None Include="MyCalculator\README.md" />
+    <None Include="MyCalculator\Runnable file\MyCalculator.deps.json" />
+    <None Include="MyCalculator\Runnable file\MyCalculator.runtimeconfig.json" />
+    <None Include="MyCalculator\WinFormsApp1\bin\Debug\net5.0-windows\MyCalculator.deps.json" />
+    <None Include="MyCalculator\WinFormsApp1\bin\Debug\net5.0-windows\MyCalculator.runtimeconfig.dev.json" />
+    <None Include="MyCalculator\WinFormsApp1\bin\Debug\net5.0-windows\MyCalculator.runtimeconfig.json" />
+    <None Include="MyCalculator\WinFormsApp1\bin\Release\net5.0-windows\MyCalculator.deps.json" />
+    <None Include="MyCalculator\WinFormsApp1\bin\Release\net5.0-windows\MyCalculator.runtimeconfig.dev.json" />
+    <None Include="MyCalculator\WinFormsApp1\bin\Release\net5.0-windows\MyCalculator.runtimeconfig.json" />
+    <None Include="MyCalculator\WinFormsApp1\bin\Release\net5.0-windows\publish\MyCalculator.deps.json" />
+    <None Include="MyCalculator\WinFormsApp1\bin\Release\net5.0-windows\publish\MyCalculator.runtimeconfig.json" />
+    <None Include="MyCalculator\WinFormsApp1\MyCalculator.csproj" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\MyCalculator.AssemblyInfoInputs.cache" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\MyCalculator.assets.cache" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\MyCalculator.csproj.AssemblyReference.cache" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\MyCalculator.csproj.CoreCompileInputs.cache" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\MyCalculator.csproj.GenerateResource.cache" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\MyCalculator.designer.deps.json" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\MyCalculator.designer.runtimeconfig.json" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\MyCalculator.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\MyCalculator.genruntimeconfig.cache" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.AssemblyInfoInputs.cache" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.assets.cache" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.csproj.AssemblyReference.cache" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.designer.deps.json" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.designer.runtimeconfig.json" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="MyCalculator\WinFormsApp1\obj\MyCalculator.csproj.nuget.dgspec.json" />
+    <None Include="MyCalculator\WinFormsApp1\obj\MyCalculator.csproj.nuget.g.props" />
+    <None Include="MyCalculator\WinFormsApp1\obj\MyCalculator.csproj.nuget.g.targets" />
+    <None Include="MyCalculator\WinFormsApp1\obj\project.assets.json" />
+    <None Include="MyCalculator\WinFormsApp1\obj\project.nuget.cache" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Release\net5.0-windows\MyCalculator.AssemblyInfoInputs.cache" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Release\net5.0-windows\MyCalculator.assets.cache" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Release\net5.0-windows\MyCalculator.csproj.AssemblyReference.cache" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Release\net5.0-windows\MyCalculator.csproj.CoreCompileInputs.cache" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Release\net5.0-windows\MyCalculator.csproj.GenerateResource.cache" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Release\net5.0-windows\MyCalculator.designer.deps.json" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Release\net5.0-windows\MyCalculator.designer.runtimeconfig.json" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Release\net5.0-windows\MyCalculator.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="MyCalculator\WinFormsApp1\obj\Release\net5.0-windows\MyCalculator.genruntimeconfig.cache" />
+    <None Include="MyCalculator\WinFormsApp1\obj\WinFormsApp1.csproj.nuget.dgspec.json" />
+    <None Include="MyCalculator\WinFormsApp1\obj\WinFormsApp1.csproj.nuget.g.props" />
+    <None Include="MyCalculator\WinFormsApp1\obj\WinFormsApp1.csproj.nuget.g.targets" />
+    <None Include="MyCalculator\WinFormsApp1\Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="README.md" />
+    <None Include="Shapes\.vs\ProjectSettings.json" />
+    <None Include="Shapes\.vs\Shapes\v16\.suo" />
+    <None Include="Shapes\.vs\slnx.sqlite" />
+    <None Include="Shapes\.vs\VSWorkspaceState.json" />
+    <None Include="Shapes\Base.WinForms\Base.WinForms.csproj" />
+    <None Include="Shapes\Base.WinForms\bin\Debug\net5.0-windows\Base.WinForms.deps.json" />
+    <None Include="Shapes\Base.WinForms\bin\Release\net5.0-windows\Base.WinForms.deps.json" />
+    <None Include="Shapes\Base.WinForms\obj\Base.WinForms.csproj.nuget.dgspec.json" />
+    <None Include="Shapes\Base.WinForms\obj\Base.WinForms.csproj.nuget.g.props" />
+    <None Include="Shapes\Base.WinForms\obj\Base.WinForms.csproj.nuget.g.targets" />
+    <None Include="Shapes\Base.WinForms\obj\Debug\net5.0-windows\Base.WinForms.AssemblyInfoInputs.cache" />
+    <None Include="Shapes\Base.WinForms\obj\Debug\net5.0-windows\Base.WinForms.assets.cache" />
+    <None Include="Shapes\Base.WinForms\obj\Debug\net5.0-windows\Base.WinForms.csproj.AssemblyReference.cache" />
+    <None Include="Shapes\Base.WinForms\obj\Debug\net5.0-windows\Base.WinForms.csproj.CopyComplete" />
+    <None Include="Shapes\Base.WinForms\obj\Debug\net5.0-windows\Base.WinForms.csproj.CoreCompileInputs.cache" />
+    <None Include="Shapes\Base.WinForms\obj\Debug\net5.0-windows\Base.WinForms.csproj.GenerateResource.cache" />
+    <None Include="Shapes\Base.WinForms\obj\Debug\net5.0-windows\Base.WinForms.designer.deps.json" />
+    <None Include="Shapes\Base.WinForms\obj\Debug\net5.0-windows\Base.WinForms.designer.runtimeconfig.json" />
+    <None Include="Shapes\Base.WinForms\obj\Debug\net5.0-windows\Base.WinForms.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="Shapes\Base.WinForms\obj\project.assets.json" />
+    <None Include="Shapes\Base.WinForms\obj\project.nuget.cache" />
+    <None Include="Shapes\Base.WinForms\obj\Release\net5.0-windows\Base.WinForms.AssemblyInfoInputs.cache" />
+    <None Include="Shapes\Base.WinForms\obj\Release\net5.0-windows\Base.WinForms.assets.cache" />
+    <None Include="Shapes\Base.WinForms\obj\Release\net5.0-windows\Base.WinForms.csproj.AssemblyReference.cache" />
+    <None Include="Shapes\Base.WinForms\obj\Release\net5.0-windows\Base.WinForms.csproj.CopyComplete" />
+    <None Include="Shapes\Base.WinForms\obj\Release\net5.0-windows\Base.WinForms.csproj.CoreCompileInputs.cache" />
+    <None Include="Shapes\Base.WinForms\obj\Release\net5.0-windows\Base.WinForms.csproj.GenerateResource.cache" />
+    <None Include="Shapes\Base.WinForms\obj\Release\net5.0-windows\Base.WinForms.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="Shapes\BaseLib\.vs\BaseLib\DesignTimeBuild\.dtbcache.v2" />
+    <None Include="Shapes\BaseLib\.vs\BaseLib\v16\.suo" />
+    <None Include="Shapes\BaseLib\BaseLib.csproj" />
+    <None Include="Shapes\BaseLib\bin\Debug\net5.0\BaseLib.deps.json" />
+    <None Include="Shapes\BaseLib\bin\Release\net5.0\BaseLib.deps.json" />
+    <None Include="Shapes\BaseLib\obj\BaseLib.csproj.nuget.dgspec.json" />
+    <None Include="Shapes\BaseLib\obj\BaseLib.csproj.nuget.g.props" />
+    <None Include="Shapes\BaseLib\obj\BaseLib.csproj.nuget.g.targets" />
+    <None Include="Shapes\BaseLib\obj\Debug\net5.0\BaseLib.AssemblyInfoInputs.cache" />
+    <None Include="Shapes\BaseLib\obj\Debug\net5.0\BaseLib.assets.cache" />
+    <None Include="Shapes\BaseLib\obj\Debug\net5.0\BaseLib.csproj.AssemblyReference.cache" />
+    <None Include="Shapes\BaseLib\obj\Debug\net5.0\BaseLib.csproj.CoreCompileInputs.cache" />
+    <None Include="Shapes\BaseLib\obj\Debug\net5.0\BaseLib.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="Shapes\BaseLib\obj\project.assets.json" />
+    <None Include="Shapes\BaseLib\obj\project.nuget.cache" />
+    <None Include="Shapes\BaseLib\obj\Release\net5.0\BaseLib.AssemblyInfoInputs.cache" />
+    <None Include="Shapes\BaseLib\obj\Release\net5.0\BaseLib.assets.cache" />
+    <None Include="Shapes\BaseLib\obj\Release\net5.0\BaseLib.csproj.AssemblyReference.cache" />
+    <None Include="Shapes\BaseLib\obj\Release\net5.0\BaseLib.csproj.CoreCompileInputs.cache" />
+    <None Include="Shapes\BaseLib\obj\Release\net5.0\BaseLib.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="Shapes\DrawWinApp\.vs\DrawWinApp\DesignTimeBuild\.dtbcache.v2" />
+    <None Include="Shapes\DrawWinApp\.vs\DrawWinApp\v16\.suo" />
+    <None Include="Shapes\DrawWinApp\bin\Debug\net5.0-windows\DrawWinApp.deps.json" />
+    <None Include="Shapes\DrawWinApp\bin\Debug\net5.0-windows\DrawWinApp.runtimeconfig.dev.json" />
+    <None Include="Shapes\DrawWinApp\bin\Debug\net5.0-windows\DrawWinApp.runtimeconfig.json" />
+    <None Include="Shapes\DrawWinApp\DrawWinApp.csproj" />
+    <None Include="Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.AssemblyInfoInputs.cache" />
+    <None Include="Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.assets.cache" />
+    <None Include="Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.csproj.AssemblyReference.cache" />
+    <None Include="Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.csproj.CoreCompileInputs.cache" />
+    <None Include="Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.csproj.GenerateResource.cache" />
+    <None Include="Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.designer.deps.json" />
+    <None Include="Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.designer.runtimeconfig.json" />
+    <None Include="Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.genruntimeconfig.cache" />
+    <None Include="Shapes\DrawWinApp\obj\DrawWinApp.csproj.nuget.dgspec.json" />
+    <None Include="Shapes\DrawWinApp\obj\DrawWinApp.csproj.nuget.g.props" />
+    <None Include="Shapes\DrawWinApp\obj\DrawWinApp.csproj.nuget.g.targets" />
+    <None Include="Shapes\DrawWinApp\obj\project.assets.json" />
+    <None Include="Shapes\DrawWinApp\obj\project.nuget.cache" />
+    <None Include="Shapes\DrawWinApp\obj\Release\net5.0-windows\DrawWinApp.AssemblyInfoInputs.cache" />
+    <None Include="Shapes\DrawWinApp\obj\Release\net5.0-windows\DrawWinApp.assets.cache" />
+    <None Include="Shapes\DrawWinApp\obj\Release\net5.0-windows\DrawWinApp.csproj.AssemblyReference.cache" />
+    <None Include="Shapes\DrawWinApp\obj\Release\net5.0-windows\DrawWinApp.csproj.CoreCompileInputs.cache" />
+    <None Include="Shapes\DrawWinApp\obj\Release\net5.0-windows\DrawWinApp.csproj.GenerateResource.cache" />
+    <None Include="Shapes\DrawWinApp\obj\Release\net5.0-windows\DrawWinApp.designer.deps.json" />
+    <None Include="Shapes\DrawWinApp\obj\Release\net5.0-windows\DrawWinApp.designer.runtimeconfig.json" />
+    <None Include="Shapes\DrawWinApp\obj\Release\net5.0-windows\DrawWinApp.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="Shapes\ShapeLib\.vs\ShapeLib\DesignTimeBuild\.dtbcache.v2" />
+    <None Include="Shapes\ShapeLib\.vs\ShapeLib\v16\.suo" />
+    <None Include="Shapes\ShapeLib\bin\Debug\net5.0-windows\ShapeLib.deps.json" />
+    <None Include="Shapes\ShapeLib\bin\Release\net5.0-windows\ShapeLib.deps.json" />
+    <None Include="Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.AssemblyInfoInputs.cache" />
+    <None Include="Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.assets.cache" />
+    <None Include="Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.csproj.AssemblyReference.cache" />
+    <None Include="Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.csproj.CoreCompileInputs.cache" />
+    <None Include="Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="Shapes\ShapeLib\obj\project.assets.json" />
+    <None Include="Shapes\ShapeLib\obj\project.nuget.cache" />
+    <None Include="Shapes\ShapeLib\obj\Release\net5.0-windows\ShapeLib.AssemblyInfoInputs.cache" />
+    <None Include="Shapes\ShapeLib\obj\Release\net5.0-windows\ShapeLib.assets.cache" />
+    <None Include="Shapes\ShapeLib\obj\Release\net5.0-windows\ShapeLib.csproj.AssemblyReference.cache" />
+    <None Include="Shapes\ShapeLib\obj\Release\net5.0-windows\ShapeLib.csproj.CoreCompileInputs.cache" />
+    <None Include="Shapes\ShapeLib\obj\Release\net5.0-windows\ShapeLib.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="Shapes\ShapeLib\obj\ShapeLib.csproj.nuget.dgspec.json" />
+    <None Include="Shapes\ShapeLib\obj\ShapeLib.csproj.nuget.g.props" />
+    <None Include="Shapes\ShapeLib\obj\ShapeLib.csproj.nuget.g.targets" />
+    <None Include="Shapes\ShapeLib\ShapeLib.csproj" />
+    <None Include="ShoppingCart\Backup1\ShoppingCart\obj\Debug\net5.0\ShoppingCart.AssemblyInfoInputs.cache" />
+    <None Include="ShoppingCart\Backup1\ShoppingCart\obj\Debug\net5.0\ShoppingCart.csproj.AssemblyReference.cache" />
+    <None Include="ShoppingCart\Backup1\ShoppingCart\obj\Debug\net5.0\ShoppingCart.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="ShoppingCart\Backup1\ShoppingCart\obj\Release\net5.0\ShoppingCart.AssemblyInfoInputs.cache" />
+    <None Include="ShoppingCart\Backup1\ShoppingCart\obj\Release\net5.0\ShoppingCart.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="ShoppingCart\Backup1\ShoppingCart\ShoppingCart.csproj" />
+    <None Include="ShoppingCart\ShoppingCart\obj\Debug\net5.0\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="ShoppingCart\ShoppingCart\obj\Debug\net5.0\ShoppingCart.AssemblyInfoInputs.cache" />
+    <None Include="ShoppingCart\ShoppingCart\obj\Debug\net5.0\ShoppingCart.assets.cache" />
+    <None Include="ShoppingCart\ShoppingCart\obj\Debug\net5.0\ShoppingCart.csproj.AssemblyReference.cache" />
+    <None Include="ShoppingCart\ShoppingCart\obj\project.assets.json" />
+    <None Include="ShoppingCart\ShoppingCart\obj\project.nuget.cache" />
+    <None Include="ShoppingCart\ShoppingCart\obj\ShoppingCart.csproj.nuget.dgspec.json" />
+    <None Include="ShoppingCart\ShoppingCart\obj\ShoppingCart.csproj.nuget.g.props" />
+    <None Include="ShoppingCart\ShoppingCart\obj\ShoppingCart.csproj.nuget.g.targets" />
+    <None Include="ShoppingCart\ShoppingCart\ShoppingCart.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\ClassLessons\v17\" />
+    <Folder Include="Collection\CollectionDemos\bin\Release\net5.0\ref\" />
+    <Folder Include="Collection\CollectionDemos\obj\Release\net5.0\ref\" />
+    <Folder Include="Shapes\DrawWinApp\bin\Release\net5.0-windows\ref\" />
+    <Folder Include="Shapes\DrawWinApp\obj\Release\net5.0-windows\ref\" />
+    <Folder Include="ShoppingCart\Backup1\ShoppingCart\bin\Debug\net5.0\ref\" />
+    <Folder Include="ShoppingCart\Backup1\ShoppingCart\bin\Release\net5.0\ref\" />
+    <Folder Include="ShoppingCart\Backup1\ShoppingCart\obj\Debug\net5.0\ref\" />
+    <Folder Include="ShoppingCart\Backup1\ShoppingCart\obj\Release\net5.0\ref\" />
+    <Folder Include="ShoppingCart\ShoppingCart\bin\Debug\net5.0\ref\" />
+    <Folder Include="ShoppingCart\ShoppingCart\bin\Release\net5.0\ref\" />
+    <Folder Include="ShoppingCart\ShoppingCart\Carts\" />
+    <Folder Include="ShoppingCart\ShoppingCart\Exceptions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Collection\CollectionDemos\bin\Debug\net5.0\CollectionDemos.dll" />
+    <Content Include="Collection\CollectionDemos\bin\Debug\net5.0\CollectionDemos.exe" />
+    <Content Include="Collection\CollectionDemos\bin\Debug\net5.0\CollectionDemos.pdb" />
+    <Content Include="Collection\CollectionDemos\bin\Debug\net5.0\Newtonsoft.Json.dll" />
+    <Content Include="Collection\CollectionDemos\bin\Debug\net5.0\ref\CollectionDemos.dll" />
+    <Content Include="Collection\CollectionDemos\CollectionDemos.sln" />
+    <Content Include="Collection\CollectionDemos\obj\Debug\net5.0\apphost.exe" />
+    <Content Include="Collection\CollectionDemos\obj\Debug\net5.0\CollectionDemos.csproj.FileListAbsolute.txt" />
+    <Content Include="Collection\CollectionDemos\obj\Debug\net5.0\CollectionDemos.dll" />
+    <Content Include="Collection\CollectionDemos\obj\Debug\net5.0\CollectionDemos.pdb" />
+    <Content Include="Collection\CollectionDemos\obj\Debug\net5.0\ref\CollectionDemos.dll" />
+    <Content Include="MyCalculator\Desktop-simple-wallpaper-backgrounds.jpg" />
+    <Content Include="MyCalculator\MyCalculator.sln" />
+    <Content Include="MyCalculator\Runnable file\MyCalculator.dll" />
+    <Content Include="MyCalculator\Runnable file\MyCalculator.exe" />
+    <Content Include="MyCalculator\Runnable file\MyCalculator.pdb" />
+    <Content Include="MyCalculator\WinFormsApp1\bin\Debug\net5.0-windows\MyCalculator.dll" />
+    <Content Include="MyCalculator\WinFormsApp1\bin\Debug\net5.0-windows\MyCalculator.exe" />
+    <Content Include="MyCalculator\WinFormsApp1\bin\Debug\net5.0-windows\MyCalculator.pdb" />
+    <Content Include="MyCalculator\WinFormsApp1\bin\Debug\net5.0-windows\ref\MyCalculator.dll" />
+    <Content Include="MyCalculator\WinFormsApp1\bin\Release\net5.0-windows\MyCalculator.dll" />
+    <Content Include="MyCalculator\WinFormsApp1\bin\Release\net5.0-windows\MyCalculator.exe" />
+    <Content Include="MyCalculator\WinFormsApp1\bin\Release\net5.0-windows\MyCalculator.pdb" />
+    <Content Include="MyCalculator\WinFormsApp1\bin\Release\net5.0-windows\publish\MyCalculator.dll" />
+    <Content Include="MyCalculator\WinFormsApp1\bin\Release\net5.0-windows\publish\MyCalculator.exe" />
+    <Content Include="MyCalculator\WinFormsApp1\bin\Release\net5.0-windows\publish\MyCalculator.pdb" />
+    <Content Include="MyCalculator\WinFormsApp1\bin\Release\net5.0-windows\ref\MyCalculator.dll" />
+    <Content Include="MyCalculator\WinFormsApp1\MyCalculator.csproj.user" />
+    <Content Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\apphost.exe" />
+    <Content Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\MyCalculator.csproj.FileListAbsolute.txt" />
+    <Content Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\MyCalculator.dll" />
+    <Content Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\MyCalculator.pdb" />
+    <Content Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\PublishOutputs.04a1568d70.txt" />
+    <Content Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\ref\MyCalculator.dll" />
+    <Content Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="MyCalculator\WinFormsApp1\obj\Release\net5.0-windows\apphost.exe" />
+    <Content Include="MyCalculator\WinFormsApp1\obj\Release\net5.0-windows\Launcher.exe" />
+    <Content Include="MyCalculator\WinFormsApp1\obj\Release\net5.0-windows\MyCalculator.csproj.FileListAbsolute.txt" />
+    <Content Include="MyCalculator\WinFormsApp1\obj\Release\net5.0-windows\MyCalculator.dll" />
+    <Content Include="MyCalculator\WinFormsApp1\obj\Release\net5.0-windows\MyCalculator.pdb" />
+    <Content Include="MyCalculator\WinFormsApp1\obj\Release\net5.0-windows\PublishOutputs.04a1568d70.txt" />
+    <Content Include="MyCalculator\WinFormsApp1\obj\Release\net5.0-windows\PublishOutputs.3a91c19332.txt" />
+    <Content Include="MyCalculator\WinFormsApp1\obj\Release\net5.0-windows\PublishOutputs.bc1cdae19f.txt" />
+    <Content Include="MyCalculator\WinFormsApp1\obj\Release\net5.0-windows\ref\MyCalculator.dll" />
+    <Content Include="MyCalculator\WinFormsApp1\Properties\PublishProfiles\FolderProfile.pubxml.user" />
+    <Content Include="Shapes\Base.WinForms\Base.WinForms.csproj.user" />
+    <Content Include="Shapes\Base.WinForms\bin\Debug\net5.0-windows\Base.WinForms.dll" />
+    <Content Include="Shapes\Base.WinForms\bin\Debug\net5.0-windows\Base.WinForms.pdb" />
+    <Content Include="Shapes\Base.WinForms\bin\Debug\net5.0-windows\BaseLib.dll" />
+    <Content Include="Shapes\Base.WinForms\bin\Debug\net5.0-windows\BaseLib.pdb" />
+    <Content Include="Shapes\Base.WinForms\bin\Debug\net5.0-windows\ref\Base.WinForms.dll" />
+    <Content Include="Shapes\Base.WinForms\bin\Release\net5.0-windows\Base.WinForms.dll" />
+    <Content Include="Shapes\Base.WinForms\bin\Release\net5.0-windows\Base.WinForms.pdb" />
+    <Content Include="Shapes\Base.WinForms\bin\Release\net5.0-windows\BaseLib.dll" />
+    <Content Include="Shapes\Base.WinForms\bin\Release\net5.0-windows\BaseLib.pdb" />
+    <Content Include="Shapes\Base.WinForms\bin\Release\net5.0-windows\ref\Base.WinForms.dll" />
+    <Content Include="Shapes\Base.WinForms\obj\Debug\net5.0-windows\Base.WinForms.csproj.FileListAbsolute.txt" />
+    <Content Include="Shapes\Base.WinForms\obj\Debug\net5.0-windows\Base.WinForms.dll" />
+    <Content Include="Shapes\Base.WinForms\obj\Debug\net5.0-windows\Base.WinForms.pdb" />
+    <Content Include="Shapes\Base.WinForms\obj\Debug\net5.0-windows\ref\Base.WinForms.dll" />
+    <Content Include="Shapes\Base.WinForms\obj\Release\net5.0-windows\Base.WinForms.csproj.FileListAbsolute.txt" />
+    <Content Include="Shapes\Base.WinForms\obj\Release\net5.0-windows\Base.WinForms.dll" />
+    <Content Include="Shapes\Base.WinForms\obj\Release\net5.0-windows\Base.WinForms.pdb" />
+    <Content Include="Shapes\Base.WinForms\obj\Release\net5.0-windows\ref\Base.WinForms.dll" />
+    <Content Include="Shapes\BaseLib\BaseLib.sln" />
+    <Content Include="Shapes\BaseLib\bin\Debug\net5.0\BaseLib.dll" />
+    <Content Include="Shapes\BaseLib\bin\Debug\net5.0\BaseLib.pdb" />
+    <Content Include="Shapes\BaseLib\bin\Debug\net5.0\ref\BaseLib.dll" />
+    <Content Include="Shapes\BaseLib\bin\Release\net5.0\BaseLib.dll" />
+    <Content Include="Shapes\BaseLib\bin\Release\net5.0\BaseLib.pdb" />
+    <Content Include="Shapes\BaseLib\bin\Release\net5.0\ref\BaseLib.dll" />
+    <Content Include="Shapes\BaseLib\obj\Debug\net5.0\BaseLib.csproj.FileListAbsolute.txt" />
+    <Content Include="Shapes\BaseLib\obj\Debug\net5.0\BaseLib.dll" />
+    <Content Include="Shapes\BaseLib\obj\Debug\net5.0\BaseLib.pdb" />
+    <Content Include="Shapes\BaseLib\obj\Debug\net5.0\ref\BaseLib.dll" />
+    <Content Include="Shapes\BaseLib\obj\Release\net5.0\BaseLib.csproj.FileListAbsolute.txt" />
+    <Content Include="Shapes\BaseLib\obj\Release\net5.0\BaseLib.dll" />
+    <Content Include="Shapes\BaseLib\obj\Release\net5.0\BaseLib.pdb" />
+    <Content Include="Shapes\BaseLib\obj\Release\net5.0\ref\BaseLib.dll" />
+    <Content Include="Shapes\DrawWinApp\bin\Debug\net5.0-windows\Base.WinForms.dll" />
+    <Content Include="Shapes\DrawWinApp\bin\Debug\net5.0-windows\Base.WinForms.pdb" />
+    <Content Include="Shapes\DrawWinApp\bin\Debug\net5.0-windows\BaseLib.dll" />
+    <Content Include="Shapes\DrawWinApp\bin\Debug\net5.0-windows\BaseLib.pdb" />
+    <Content Include="Shapes\DrawWinApp\bin\Debug\net5.0-windows\DrawWinApp.dll" />
+    <Content Include="Shapes\DrawWinApp\bin\Debug\net5.0-windows\DrawWinApp.exe" />
+    <Content Include="Shapes\DrawWinApp\bin\Debug\net5.0-windows\DrawWinApp.pdb" />
+    <Content Include="Shapes\DrawWinApp\bin\Debug\net5.0-windows\ref\DrawWinApp.dll" />
+    <Content Include="Shapes\DrawWinApp\bin\Debug\net5.0-windows\ShapeLib.dll" />
+    <Content Include="Shapes\DrawWinApp\bin\Debug\net5.0-windows\ShapeLib.pdb" />
+    <Content Include="Shapes\DrawWinApp\DrawWinApp.csproj.user" />
+    <Content Include="Shapes\DrawWinApp\DrawWinApp.sln" />
+    <Content Include="Shapes\DrawWinApp\obj\Debug\net5.0-windows\apphost.exe" />
+    <Content Include="Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.csproj.FileListAbsolute.txt" />
+    <Content Include="Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.dll" />
+    <Content Include="Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.pdb" />
+    <Content Include="Shapes\DrawWinApp\obj\Debug\net5.0-windows\ref\DrawWinApp.dll" />
+    <Content Include="Shapes\DrawWinApp\obj\Release\net5.0-windows\DrawWinApp.csproj.FileListAbsolute.txt" />
+    <Content Include="Shapes\ShapeLib\bin\Debug\net5.0-windows\Base.WinForms.dll" />
+    <Content Include="Shapes\ShapeLib\bin\Debug\net5.0-windows\Base.WinForms.pdb" />
+    <Content Include="Shapes\ShapeLib\bin\Debug\net5.0-windows\BaseLib.dll" />
+    <Content Include="Shapes\ShapeLib\bin\Debug\net5.0-windows\BaseLib.pdb" />
+    <Content Include="Shapes\ShapeLib\bin\Debug\net5.0-windows\ref\ShapeLib.dll" />
+    <Content Include="Shapes\ShapeLib\bin\Debug\net5.0-windows\ShapeLib.dll" />
+    <Content Include="Shapes\ShapeLib\bin\Debug\net5.0-windows\ShapeLib.pdb" />
+    <Content Include="Shapes\ShapeLib\bin\Release\net5.0-windows\Base.WinForms.dll" />
+    <Content Include="Shapes\ShapeLib\bin\Release\net5.0-windows\Base.WinForms.pdb" />
+    <Content Include="Shapes\ShapeLib\bin\Release\net5.0-windows\BaseLib.dll" />
+    <Content Include="Shapes\ShapeLib\bin\Release\net5.0-windows\BaseLib.pdb" />
+    <Content Include="Shapes\ShapeLib\bin\Release\net5.0-windows\ref\ShapeLib.dll" />
+    <Content Include="Shapes\ShapeLib\bin\Release\net5.0-windows\ShapeLib.dll" />
+    <Content Include="Shapes\ShapeLib\bin\Release\net5.0-windows\ShapeLib.pdb" />
+    <Content Include="Shapes\ShapeLib\obj\Debug\net5.0-windows\ref\ShapeLib.dll" />
+    <Content Include="Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.csproj.FileListAbsolute.txt" />
+    <Content Include="Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.dll" />
+    <Content Include="Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.pdb" />
+    <Content Include="Shapes\ShapeLib\obj\Release\net5.0-windows\ref\ShapeLib.dll" />
+    <Content Include="Shapes\ShapeLib\obj\Release\net5.0-windows\ShapeLib.csproj.FileListAbsolute.txt" />
+    <Content Include="Shapes\ShapeLib\obj\Release\net5.0-windows\ShapeLib.dll" />
+    <Content Include="Shapes\ShapeLib\obj\Release\net5.0-windows\ShapeLib.pdb" />
+    <Content Include="Shapes\ShapeLib\ShapeLib.sln" />
+    <Content Include="ShoppingCart\Backup1\ShoppingCart.sln" />
+    <Content Include="ShoppingCart\Backup\ShoppingCart.sln" />
+    <Content Include="ShoppingCart\ShoppingCart.sln" />
+    <Content Include="ShoppingCart\ShoppingCart\obj\Debug\net5.0\apphost.exe" />
+    <Content Include="ShoppingCart\UpgradeLog.htm" />
+    <Content Include="ShoppingCart\UpgradeLog2.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Collection\CollectionDemos\Models\Person.cs" />
+    <Compile Include="Collection\CollectionDemos\MyCollectionDemo.cs" />
+    <Compile Include="Collection\CollectionDemos\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Include="Collection\CollectionDemos\obj\Debug\net5.0\CollectionDemos.AssemblyInfo.cs" />
+    <Compile Include="Collection\CollectionDemos\obj\Release\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Include="Collection\CollectionDemos\obj\Release\net5.0\CollectionDemos.AssemblyInfo.cs" />
+    <Compile Include="Collection\CollectionDemos\Program.cs" />
+    <Compile Include="MyCalculator\WinFormsApp1\Form1.cs" />
+    <Compile Include="MyCalculator\WinFormsApp1\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\MyCalculator.AssemblyInfo.cs" />
+    <Compile Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.AssemblyInfo.cs" />
+    <Compile Include="MyCalculator\WinFormsApp1\obj\Release\net5.0-windows\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Include="MyCalculator\WinFormsApp1\obj\Release\net5.0-windows\MyCalculator.AssemblyInfo.cs" />
+    <Compile Include="MyCalculator\WinFormsApp1\Program.cs" />
+    <Compile Include="MyCalculator\WinFormsApp1\Properties\Resources.Designer.cs" />
+    <Compile Include="Shapes\Base.WinForms\DrawContext.cs" />
+    <Compile Include="Shapes\Base.WinForms\DrawControl.cs" />
+    <Compile Include="Shapes\Base.WinForms\DrawControl.Designer.cs">
+      <DependentUpon>DrawControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shapes\Base.WinForms\Extensions\GraphicsExtensions.cs" />
+    <Compile Include="Shapes\Base.WinForms\obj\Debug\net5.0-windows\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Include="Shapes\Base.WinForms\obj\Debug\net5.0-windows\Base.WinForms.AssemblyInfo.cs" />
+    <Compile Include="Shapes\Base.WinForms\obj\Release\net5.0-windows\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Include="Shapes\Base.WinForms\obj\Release\net5.0-windows\Base.WinForms.AssemblyInfo.cs" />
+    <Compile Include="Shapes\Base.WinForms\Transformation2d.cs" />
+    <Compile Include="Shapes\BaseLib\Extensions.cs" />
+    <Compile Include="Shapes\BaseLib\MathFunctions.cs" />
+    <Compile Include="Shapes\BaseLib\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Include="Shapes\BaseLib\obj\Debug\net5.0\BaseLib.AssemblyInfo.cs" />
+    <Compile Include="Shapes\BaseLib\obj\Release\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Include="Shapes\BaseLib\obj\Release\net5.0\BaseLib.AssemblyInfo.cs" />
+    <Compile Include="Shapes\BaseLib\Vector2d.cs" />
+    <Compile Include="Shapes\DrawWinApp\Form1.cs" />
+    <Compile Include="Shapes\DrawWinApp\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shapes\DrawWinApp\obj\Debug\net5.0-windows\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Include="Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.AssemblyInfo.cs" />
+    <Compile Include="Shapes\DrawWinApp\obj\Release\net5.0-windows\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Include="Shapes\DrawWinApp\obj\Release\net5.0-windows\DrawWinApp.AssemblyInfo.cs" />
+    <Compile Include="Shapes\DrawWinApp\Program.cs" />
+    <Compile Include="Shapes\ShapeLib\Circle.cs" />
+    <Compile Include="Shapes\ShapeLib\Diamond.cs" />
+    <Compile Include="Shapes\ShapeLib\obj\Debug\net5.0-windows\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Include="Shapes\ShapeLib\obj\Debug\net5.0-windows\ShapeLib.AssemblyInfo.cs" />
+    <Compile Include="Shapes\ShapeLib\obj\Release\net5.0-windows\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Include="Shapes\ShapeLib\obj\Release\net5.0-windows\ShapeLib.AssemblyInfo.cs" />
+    <Compile Include="Shapes\ShapeLib\Rectangle.cs" />
+    <Compile Include="Shapes\ShapeLib\Shape.cs" />
+    <Compile Include="Shapes\ShapeLib\Triangle.cs" />
+    <Compile Include="ShoppingCart\Backup1\ShoppingCart\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Include="ShoppingCart\Backup1\ShoppingCart\obj\Debug\net5.0\ShoppingCart.AssemblyInfo.cs" />
+    <Compile Include="ShoppingCart\Backup1\ShoppingCart\obj\Release\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Include="ShoppingCart\Backup1\ShoppingCart\obj\Release\net5.0\ShoppingCart.AssemblyInfo.cs" />
+    <Compile Include="ShoppingCart\Backup1\ShoppingCart\Products\Book.cs" />
+    <Compile Include="ShoppingCart\Backup1\ShoppingCart\Products\Phone.cs" />
+    <Compile Include="ShoppingCart\Backup1\ShoppingCart\Products\Product.cs" />
+    <Compile Include="ShoppingCart\Backup1\ShoppingCart\Program.cs" />
+    <Compile Include="ShoppingCart\ShoppingCart\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Include="ShoppingCart\ShoppingCart\obj\Debug\net5.0\ShoppingCart.AssemblyInfo.cs" />
+    <Compile Include="ShoppingCart\ShoppingCart\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyCalculator\WinFormsApp1\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\MyCalculator.Properties.Resources.resources" />
+    <EmbeddedResource Include="MyCalculator\WinFormsApp1\obj\Debug\net5.0-windows\WinFormsApp1.Form1.resources" />
+    <EmbeddedResource Include="MyCalculator\WinFormsApp1\obj\Release\net5.0-windows\MyCalculator.Properties.Resources.resources" />
+    <EmbeddedResource Include="MyCalculator\WinFormsApp1\obj\Release\net5.0-windows\WinFormsApp1.Form1.resources" />
+    <EmbeddedResource Include="MyCalculator\WinFormsApp1\Properties\Resources.resx" />
+    <EmbeddedResource Include="Shapes\Base.WinForms\DrawControl.resx">
+      <DependentUpon>DrawControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shapes\Base.WinForms\obj\Debug\net5.0-windows\Base.WinForms.DrawControl.resources" />
+    <EmbeddedResource Include="Shapes\Base.WinForms\obj\Release\net5.0-windows\Base.WinForms.DrawControl.resources" />
+    <EmbeddedResource Include="Shapes\DrawWinApp\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shapes\DrawWinApp\obj\Debug\net5.0-windows\DrawWinApp.Form1.resources" />
+    <EmbeddedResource Include="Shapes\DrawWinApp\obj\Release\net5.0-windows\DrawWinApp.Form1.resources" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
