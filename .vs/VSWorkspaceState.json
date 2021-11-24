@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\C# .net"
+    "\\C# .net",
+    "\\C# .net\\ClassLessons",
+    "\\C# .net\\ClassLessons\\ConsoleCalculator"
   ],
+  "SelectedNode": "\\C# .net\\ClassLessons\\ConsoleCalculator\\ConsoleCalculator.csproj",
   "PreviewInSolutionExplorer": false
 }
