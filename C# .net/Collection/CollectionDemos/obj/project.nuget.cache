@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FmbD8V99svGvDRPy8+BwNHvMHc9F9vlUMttMHOpNvIF967aBE1KfjzOEbJbC4lhWIGLewF6fZJPoj3sUvJsxzw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Yaniv\\Desktop\\FullStack\\C# .net\\Collection\\CollectionDemos\\CollectionDemos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yaniv\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
