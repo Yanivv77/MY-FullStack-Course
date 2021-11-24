@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Yaniv\\Desktop\\FullStack\\C# .net\\ShoppingCart\\ShoppingCart\\ShoppingCart.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Yaniv\\Desktop\\FullStack\\C# .net\\ShoppingCart\\ShoppingCart\\ShoppingCart.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yaniv\\Desktop\\FullStack\\C# .net\\ShoppingCart\\ShoppingCart\\ShoppingCart.csproj",
+        "projectName": "ShoppingCart",
+        "projectPath": "C:\\Users\\Yaniv\\Desktop\\FullStack\\C# .net\\ShoppingCart\\ShoppingCart\\ShoppingCart.csproj",
+        "packagesPath": "C:\\Users\\Yaniv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yaniv\\Desktop\\FullStack\\C# .net\\ShoppingCart\\ShoppingCart\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Yaniv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "(, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "(, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
