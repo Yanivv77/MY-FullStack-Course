@@ -1,7 +1,0 @@
-C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\DrawWinApp\obj\Release\net5.0-windows\DrawWinApp.csproj.AssemblyReference.cache
-C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\DrawWinApp\obj\Release\net5.0-windows\DrawWinApp.Form1.resources
-C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\DrawWinApp\obj\Release\net5.0-windows\DrawWinApp.csproj.GenerateResource.cache
-C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\DrawWinApp\obj\Release\net5.0-windows\DrawWinApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\DrawWinApp\obj\Release\net5.0-windows\DrawWinApp.AssemblyInfoInputs.cache
-C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\DrawWinApp\obj\Release\net5.0-windows\DrawWinApp.AssemblyInfo.cs
-C:\Users\Yaniv\Desktop\MY-FullStack-Course\C#\Shapes\DrawWinApp\obj\Release\net5.0-windows\DrawWinApp.csproj.CoreCompileInputs.cache

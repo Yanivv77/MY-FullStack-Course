@@ -1,5 +1,0 @@
-C:\Users\Yaniv\Desktop\C#\MyCalculator\Runnable file\MyCalculator.exe
-C:\Users\Yaniv\Desktop\C#\MyCalculator\Runnable file\MyCalculator.dll
-C:\Users\Yaniv\Desktop\C#\MyCalculator\Runnable file\MyCalculator.deps.json
-C:\Users\Yaniv\Desktop\C#\MyCalculator\Runnable file\MyCalculator.runtimeconfig.json
-C:\Users\Yaniv\Desktop\C#\MyCalculator\Runnable file\MyCalculator.pdb
