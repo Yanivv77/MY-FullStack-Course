@@ -1,5 +1,6 @@
 ﻿using ShopProject.Classes.Products;
 using System.Collections;
+using System.Collections.Generic;
 using System.Text;
 
 namespace ShopProject.Classes
@@ -8,12 +9,12 @@ namespace ShopProject.Classes
     {
 
         string ShopName { get; set; }
-        ArrayList IetmList { get; set; }
+        List<Product> IetmList { get; set; }
 
         public Shop(string shopName)
         {
             ShopName = shopName;
-            IetmList = new ArrayList();
+            IetmList = new List<Product>();
 
         }
 

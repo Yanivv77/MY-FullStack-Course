@@ -4,9 +4,9 @@ namespace ShopProject.Classes.Products.Digital
 {
     internal class Audiobook : DigitalProduct
     {
-        protected int _AudioTime;
+        int _AudioTime;
 
-        protected int AudioTime
+         int AudioTime
         {
             get { return _AudioTime; }
             set

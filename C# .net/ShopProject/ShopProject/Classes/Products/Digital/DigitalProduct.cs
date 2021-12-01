@@ -10,7 +10,7 @@ namespace ShopProject.Classes.Products.Digital
 
 
 
-        protected double Size
+         double Size
         {
             get { return _Size; }
             set

@@ -7,9 +7,9 @@ namespace ShopProject.Classes.Products
 
         public static int Count = 0;
 
-        protected int SerialNumber;
-        protected string _ProductName;
-        protected int _Price;
+        int SerialNumber;
+        string _ProductName;
+        int _Price;
 
         public string ProductName
         {

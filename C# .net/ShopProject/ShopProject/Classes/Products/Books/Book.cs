@@ -1,6 +1,7 @@
 ﻿using ShopProject.Enums;
 using ShopProject.Exceptions;
 using System.Collections;
+using System.Collections.Generic;
 using System.Text;
 
 namespace ShopProject.Classes.Products.Books
@@ -10,7 +11,7 @@ namespace ShopProject.Classes.Products.Books
         int _PublishYear;
         int _PagesNum;
         Genre _Genre { get; set; }
-        ArrayList _Authors = new ArrayList();
+        List<Author> _Authors = new List<Author>();
 
         int PublishYear
         {
@@ -54,7 +55,7 @@ namespace ShopProject.Classes.Products.Books
 
 
 
-        public Book(string name, int publishYear, int price, ArrayList authors, int pagesNum, Genre genre) : base(name, price)
+        public Book(string name, int publishYear, int price, List<Author> authors, int pagesNum, Genre genre) : base(name, price)
         {
             PublishYear =  publishYear;
             PagesNum = pagesNum;
