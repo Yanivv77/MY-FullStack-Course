@@ -1,0 +1,8 @@
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\NumbersQuestions\NumbersQuestions\bin\Debug\NumbersQuestions.exe.config
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\NumbersQuestions\NumbersQuestions\bin\Debug\NumbersQuestions.exe
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\NumbersQuestions\NumbersQuestions\bin\Debug\NumbersQuestions.pdb
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\NumbersQuestions\NumbersQuestions\obj\Debug\NumbersQuestions.csproj.AssemblyReference.cache
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\NumbersQuestions\NumbersQuestions\obj\Debug\NumbersQuestions.csproj.SuggestedBindingRedirects.cache
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\NumbersQuestions\NumbersQuestions\obj\Debug\NumbersQuestions.csproj.CoreCompileInputs.cache
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\NumbersQuestions\NumbersQuestions\obj\Debug\NumbersQuestions.exe
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\NumbersQuestions\NumbersQuestions\obj\Debug\NumbersQuestions.pdb

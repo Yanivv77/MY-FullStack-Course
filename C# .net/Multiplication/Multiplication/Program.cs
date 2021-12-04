@@ -61,7 +61,6 @@ namespace Multiplication
                     if (i % j == 0)
                     {
                         break;
-
                     }
 
                     if (j == i - 1)
@@ -92,15 +91,15 @@ namespace Multiplication
 
         public static void Prime2()
         {
-            int count = 0;
+           
 
             List<int> primes = new List<int>(new int[] { 2, 3 });
             for (int n = 5; primes.Count < 25; n += 2)
             {
                 bool isPrime = true;
-                foreach (int prime in primes)
+                foreach (int prime in primes.ToList())
                 {
-                    count++;
+                   
                     if (n % prime == 0)
                     {
                         isPrime = false;
@@ -216,7 +215,7 @@ namespace Multiplication
             list.Add(0);   
             list.Add(1);
 
-            for (int i = 1; i < n + 1; i++)
+            for (int i = 0; i < n + 1; i++)
             {
                 int sum = list[i] + list[i + 1];
                 list.Add(sum);
@@ -229,6 +228,12 @@ namespace Multiplication
             }
 
         }
+
+        public static void fibo(int size)
+        {
+
+        }
+
 
 
 
