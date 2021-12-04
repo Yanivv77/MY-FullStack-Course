@@ -1,0 +1,8 @@
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Patterns\Patterns\obj\Debug\Patterns.csproj.AssemblyReference.cache
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Patterns\Patterns\obj\Debug\Patterns.csproj.SuggestedBindingRedirects.cache
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Patterns\Patterns\obj\Debug\Patterns.csproj.CoreCompileInputs.cache
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Patterns\Patterns\bin\Debug\Patterns.exe.config
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Patterns\Patterns\bin\Debug\Patterns.exe
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Patterns\Patterns\bin\Debug\Patterns.pdb
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Patterns\Patterns\obj\Debug\Patterns.exe
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Patterns\Patterns\obj\Debug\Patterns.pdb

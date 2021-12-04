@@ -1,0 +1,8 @@
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Multiplication\Multiplication\obj\Debug\Multiplication.csproj.AssemblyReference.cache
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Multiplication\Multiplication\obj\Debug\Multiplication.csproj.SuggestedBindingRedirects.cache
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Multiplication\Multiplication\obj\Debug\Multiplication.csproj.CoreCompileInputs.cache
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Multiplication\Multiplication\bin\Debug\Multiplication.exe.config
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Multiplication\Multiplication\bin\Debug\Multiplication.exe
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Multiplication\Multiplication\bin\Debug\Multiplication.pdb
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Multiplication\Multiplication\obj\Debug\Multiplication.exe
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Multiplication\Multiplication\obj\Debug\Multiplication.pdb
