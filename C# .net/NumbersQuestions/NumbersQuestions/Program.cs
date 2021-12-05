@@ -29,12 +29,15 @@ namespace NumbersQuestions
             //CountDigits.CountDigitsNumber(1434530);
 
             //Factorial.FactorialOfNumber(4);
+            //Console.WriteLine(Factorial.FactorialRecursion(6));
+
 
             //ReverseNumber.ReverseNumbers(1234);
 
             //SumAllDigits.SumDigits(123);
 
             //Palindrome.CheckPalindrome(313);
+            Console.WriteLine(TragilRecursion.GetNextNumber("545"));
 
 
             Console.ReadLine();

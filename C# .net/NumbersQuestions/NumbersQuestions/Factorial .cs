@@ -19,5 +19,21 @@ namespace NumbersQuestions
             Console.WriteLine(fact);
 
         }
+
+        public static int FactorialRecursion(int num)
+        {
+            if (num >= 1)
+                return num * FactorialRecursion(num - 1);
+            else
+                return 1;
+        }
+
+
+
+
+
+
+
+
     }
 }

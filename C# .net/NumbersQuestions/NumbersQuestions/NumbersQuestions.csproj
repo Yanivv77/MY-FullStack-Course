@@ -53,6 +53,7 @@
     <Compile Include="ReverseNumber.cs" />
     <Compile Include="SumAllDigits.cs" />
     <Compile Include="Swap.cs" />
+    <Compile Include="TragilRecursion.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
