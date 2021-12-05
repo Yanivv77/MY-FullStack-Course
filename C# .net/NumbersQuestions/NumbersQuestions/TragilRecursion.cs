@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace NumbersQuestions
+{ 
+    public static class TragilRecursion
 {
-    internal class TragilRecursion
-    {
 
         public static string GetNextNumber(string input, int positionFromEnd = 0)
         {
@@ -16,7 +13,8 @@ namespace NumbersQuestions
                 return "".PadLeft(input.Length, '0');
             }
 
-            int digit = int.Parse(input.Substring(input.Length - 1 - positionFromEnd, 1));
+           
+            int digit = int.Parse(input[input.Length - 1 - positionFromEnd].ToString());
             if (digit == 9)
             {
                 return GetNextNumber(input, ++positionFromEnd);
@@ -25,7 +23,6 @@ namespace NumbersQuestions
             {
                 return input.Substring(0, input.Length - 1 - positionFromEnd) + (++digit).ToString().PadRight(positionFromEnd + 1, '0');
             }
-
         }
     }
 }
