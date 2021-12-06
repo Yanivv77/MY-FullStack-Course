@@ -24,7 +24,7 @@ namespace Patterns
             //Square.HollowSquare(4, 5);
 
             //Diamond.Diamondd(11);
-
+            
 
             Console.ReadLine();
         }

@@ -15,6 +15,67 @@ namespace Patterns
         //   *   row 1, 2 spaces, 1 star
         //  ***  row 2, 1 space, 3 stars
         // ***** row 3, 0 spaces, 5 starts
+
+        public static void Pyramidd2(int height)
+        {
+
+            for (int i = 1; i <= height; i++) //rows
+            {
+            
+                for (int j = 0; j < height-i; j++) //speace
+                {
+                    Console.Write(" ");
+                }
+
+                for (int k = 1; k < i*2 ; k++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+
+
+
+        }
+
+
+
+        // ***** row 3, 0 spaces, 5 starts
+        //  ***  row 2, 1 space, 3 stars
+        //   *   row 1, 2 spaces, 1 star
+        public static void ReversePyramid2(int height)
+        {
+
+            for (int i = height - 1 ; i >= 1; i--)
+            {
+                for (int j = 0; j < height - i; j++)
+                {
+                    Console.Write(" ");
+                }
+
+                for (int k = 1; k < i * 2; k++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+
+
+
+            }
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
         public static void Pyramidd(int height)
         {
             for (int i = 1; i <= height; i++) // Number of rows (height)
