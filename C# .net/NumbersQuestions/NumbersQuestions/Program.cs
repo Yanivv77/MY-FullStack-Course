@@ -28,7 +28,7 @@ namespace NumbersQuestions
 
             //CountDigits.CountDigitsNumber(1434530);
 
-            //Factorial.FactorialOfNumber(4);
+            Factorial.FactorialOfNumber(20);
             //Console.WriteLine(Factorial.FactorialRecursion(6));
 
 
@@ -37,7 +37,7 @@ namespace NumbersQuestions
             //SumAllDigits.SumDigits(123);
 
             //Palindrome.CheckPalindrome(313);
-            Console.WriteLine(TragilRecursion.GetNextNumber("545"));
+            //Console.WriteLine(TragilRecursion.GetNextNumber("545"));
 
 
             Console.ReadLine();
