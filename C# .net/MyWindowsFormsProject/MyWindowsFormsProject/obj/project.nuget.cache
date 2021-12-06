@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bGJp2ZkJP6ReQAP8OnrxKFdJHDShojm3GOpUnYFQv/nPiCozQEmUs1dqQkYprxdohQpQWpHWA/qhSoKB38vqUQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yaniv\\OneDrive\\Desktop\\MY-FullStack-Course\\C# .net\\MyWindowsFormsProject\\MyWindowsFormsProject\\MyWindowsFormsProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yaniv\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
