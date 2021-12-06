@@ -10,10 +10,12 @@ namespace TestQuestion3
         public void PrimeFactorsOf100()
         {
             int value = 100;
-            string actual = Question3.primeFactorss(value);
+            string actual = Question3.primeFactorss(value).Trim();
 
             string expected = "2 2 5 5";
             Assert.AreEqual(expected, actual);
         }
+
+
     }
 }

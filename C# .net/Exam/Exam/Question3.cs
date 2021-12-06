@@ -33,7 +33,7 @@ namespace Exam
 
       
 
-        public string primeFactorss(int n)
+        public static string primeFactorss(int n)
         {
             string str = "";
 
@@ -59,6 +59,21 @@ namespace Exam
             return str;
         }
 
-        
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
