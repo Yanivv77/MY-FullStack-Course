@@ -1,0 +1,8 @@
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Tirgol1\Tirgol1\bin\Debug\Tirgol1.exe.config
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Tirgol1\Tirgol1\bin\Debug\Tirgol1.exe
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Tirgol1\Tirgol1\bin\Debug\Tirgol1.pdb
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Tirgol1\Tirgol1\obj\Debug\Tirgol1.csproj.AssemblyReference.cache
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Tirgol1\Tirgol1\obj\Debug\Tirgol1.csproj.SuggestedBindingRedirects.cache
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Tirgol1\Tirgol1\obj\Debug\Tirgol1.csproj.CoreCompileInputs.cache
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Tirgol1\Tirgol1\obj\Debug\Tirgol1.exe
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Tirgol1\Tirgol1\obj\Debug\Tirgol1.pdb

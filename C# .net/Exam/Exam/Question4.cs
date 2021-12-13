@@ -20,7 +20,7 @@ namespace Exam
             int digit = int.Parse(input[input.Length - 1 - End].ToString());
 
 
-            if (digit == 9)
+            if (digit == 9) 
             {
                 return GetNextNumber(input, ++End);
             }

@@ -1,0 +1,11 @@
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\pais\pais\bin\Debug\pais.exe.config
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\pais\pais\bin\Debug\pais.exe
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\pais\pais\bin\Debug\pais.pdb
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\pais\pais\obj\Debug\pais.csproj.AssemblyReference.cache
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\pais\pais\obj\Debug\pais.csproj.SuggestedBindingRedirects.cache
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\pais\pais\obj\Debug\pais.Form1.resources
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\pais\pais\obj\Debug\pais.Properties.Resources.resources
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\pais\pais\obj\Debug\pais.csproj.GenerateResource.cache
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\pais\pais\obj\Debug\pais.csproj.CoreCompileInputs.cache
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\pais\pais\obj\Debug\pais.exe
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\pais\pais\obj\Debug\pais.pdb
