@@ -1,13 +1,6 @@
-using MyWindowsFormsProject;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace GoogleSearch
+namespace MyWindowsFormsProject
 {
-    internal static class MyWindowsFormsProject
+    internal static class Program
     {
         /// <summary>
         ///  The main entry point for the application.
@@ -15,10 +8,8 @@ namespace GoogleSearch
         [STAThread]
         static void Main()
         {
-            Application.SetHighDpiMode(HighDpiMode.SystemAware);
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmGoogleSearch());
+            ApplicationConfiguration.Initialize();
+            Application.Run(new Form1());
         }
     }
 }

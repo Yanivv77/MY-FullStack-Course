@@ -10,6 +10,8 @@ namespace Exam
     {
         static void Main(string[] args)
         {
+
+            Question2.Cal(9, 5);
             //Question2.MultiplicationBoard(10);
             //Question2.MultiplicationBoard(10,5);
 
@@ -18,8 +20,8 @@ namespace Exam
             //Question3.primeFactors(1024);// = 2 2 2 2 2 2 2 2 2 2
             //Question3.primeFactors(726);// = 2 3 11 11
 
-             
-            Console.WriteLine(Question3.primeFactorss(100).Trim());
+
+            //Console.WriteLine(Question3.primeFactorss(100).Trim());
 
             //Console.WriteLine(Question4.GetNextNumber("99999999999999"));
 

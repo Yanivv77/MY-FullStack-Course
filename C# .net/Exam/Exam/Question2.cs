@@ -9,6 +9,26 @@ namespace Exam
     internal class Question2
     {
 
+        public static void Cal(int num1, int num2)
+        {
+
+            double counter = 0;
+            int i = num1 - num2;
+
+        while (i >= 0)
+			{
+                
+                counter++;
+                i -= num2;
+            }
+            
+
+           Console.Write(counter);
+           
+
+        }
+
+
 
 
         public static void MultiplicationBoard(int size)

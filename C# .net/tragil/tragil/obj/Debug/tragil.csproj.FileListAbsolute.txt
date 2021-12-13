@@ -1,0 +1,8 @@
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\tragil\tragil\bin\Debug\tragil.exe.config
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\tragil\tragil\bin\Debug\tragil.exe
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\tragil\tragil\bin\Debug\tragil.pdb
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\tragil\tragil\obj\Debug\tragil.csproj.AssemblyReference.cache
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\tragil\tragil\obj\Debug\tragil.csproj.SuggestedBindingRedirects.cache
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\tragil\tragil\obj\Debug\tragil.csproj.CoreCompileInputs.cache
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\tragil\tragil\obj\Debug\tragil.exe
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\tragil\tragil\obj\Debug\tragil.pdb
