@@ -1,0 +1,29 @@
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\obj\Debug\net5.0-windows\PaisFormsApp.csproj.AssemblyReference.cache
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\obj\Debug\net5.0-windows\PaisFormsApp.Form1.resources
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\obj\Debug\net5.0-windows\PaisFormsApp.csproj.GenerateResource.cache
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\obj\Debug\net5.0-windows\PaisFormsApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\obj\Debug\net5.0-windows\PaisFormsApp.AssemblyInfoInputs.cache
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\obj\Debug\net5.0-windows\PaisFormsApp.AssemblyInfo.cs
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\obj\Debug\net5.0-windows\PaisFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\bin\Debug\net5.0-windows\hashTable.deps.json
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\bin\Debug\net5.0-windows\hashTable.runtimeconfig.json
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\bin\Debug\net5.0-windows\hashTable.runtimeconfig.dev.json
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\bin\Debug\net5.0-windows\hashTable.exe
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\bin\Debug\net5.0-windows\PaisFormsApp.exe
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\bin\Debug\net5.0-windows\PaisFormsApp.deps.json
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\bin\Debug\net5.0-windows\PaisFormsApp.runtimeconfig.json
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\bin\Debug\net5.0-windows\PaisFormsApp.runtimeconfig.dev.json
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\bin\Debug\net5.0-windows\PaisFormsApp.dll
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\bin\Debug\net5.0-windows\ref\PaisFormsApp.dll
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\bin\Debug\net5.0-windows\PaisFormsApp.pdb
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\bin\Debug\net5.0-windows\hashTable.dll
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\bin\Debug\net5.0-windows\hashTable.pdb
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\obj\Debug\net5.0-windows\PaisFormsApp.csproj.CopyComplete
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\obj\Debug\net5.0-windows\PaisFormsApp.dll
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\obj\Debug\net5.0-windows\ref\PaisFormsApp.dll
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\obj\Debug\net5.0-windows\PaisFormsApp.pdb
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\obj\Debug\net5.0-windows\PaisFormsApp.genruntimeconfig.cache
+C:\Users\97254\source\repos\DataStructures\PaisFormsApp\obj\Debug\net5.0-windows\PaisFormsApp.Properties.Resources.resources
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\Data Structures And Algorithms\PaisFormsApp\obj\Debug\net5.0-windows\PaisFormsApp.dll
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\Data Structures And Algorithms\PaisFormsApp\obj\Debug\net5.0-windows\ref\PaisFormsApp.dll
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\Data Structures And Algorithms\PaisFormsApp\obj\Debug\net5.0-windows\PaisFormsApp.pdb

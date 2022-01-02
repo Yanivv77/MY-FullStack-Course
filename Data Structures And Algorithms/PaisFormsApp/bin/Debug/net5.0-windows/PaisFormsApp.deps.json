@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "PaisFormsApp/1.0.0": {
+        "dependencies": {
+          "hashTable": "1.0.0"
+        },
+        "runtime": {
+          "PaisFormsApp.dll": {}
+        }
+      },
+      "hashTable/1.0.0": {
+        "runtime": {
+          "hashTable.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PaisFormsApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "hashTable/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
