@@ -1,0 +1,8 @@
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\Data Structures And Algorithms\Data Structures\Data Structures\bin\Debug\Data Structures.exe.config
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\Data Structures And Algorithms\Data Structures\Data Structures\bin\Debug\Data Structures.exe
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\Data Structures And Algorithms\Data Structures\Data Structures\bin\Debug\Data Structures.pdb
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\Data Structures And Algorithms\Data Structures\Data Structures\obj\Debug\Data Structures.csproj.AssemblyReference.cache
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\Data Structures And Algorithms\Data Structures\Data Structures\obj\Debug\Data Structures.csproj.SuggestedBindingRedirects.cache
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\Data Structures And Algorithms\Data Structures\Data Structures\obj\Debug\Data Structures.csproj.CoreCompileInputs.cache
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\Data Structures And Algorithms\Data Structures\Data Structures\obj\Debug\Data Structures.exe
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\Data Structures And Algorithms\Data Structures\Data Structures\obj\Debug\Data Structures.pdb
