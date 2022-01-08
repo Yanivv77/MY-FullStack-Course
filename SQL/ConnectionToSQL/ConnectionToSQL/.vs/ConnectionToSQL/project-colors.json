@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f068c69f-279e-45b4-832a-9add558b20c2": {
+      "ProjectGuid": "f068c69f-279e-45b4-832a-9add558b20c2",
+      "DisplayName": "ConnectionToSQL",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
