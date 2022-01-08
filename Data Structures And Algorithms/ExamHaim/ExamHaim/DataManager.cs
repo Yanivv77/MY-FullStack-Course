@@ -81,11 +81,11 @@ namespace ExamHaim
                 // 5.b
                 if (data.marryMen > data.marryWomen)
                 {
-                    Console.WriteLine("More marryed Women in " + num + " : " + data.marryMen);
+                    Console.WriteLine("More marryed Men in " + num + " : " + data.marryMen);
                 }
                 else
                 {
-                    Console.WriteLine("More marryed Women in "+ num +" : " + data.marryMen);
+                    Console.WriteLine("More marryed Women in "+ num +" : " + data.marryWomen);
                 }
 
                 // 5.c
@@ -124,7 +124,7 @@ namespace ExamHaim
                     int TotalDivorcePlusOne = dataPlusOne.DivMen + dataPlusOne.DivWomen;
                     if ( TotalDivorce > TotalDivorcePlusOne )
                     {
-                        Console.WriteLine("More marrayed this year " + (num) + " this year more divorces : " + (TotalDivorce - TotalDivorcePlusOne));
+                        Console.WriteLine("More divorces this year " + (num) + " this year more divorces : " + (TotalDivorce - TotalDivorcePlusOne));
                         
                     }
                     else
