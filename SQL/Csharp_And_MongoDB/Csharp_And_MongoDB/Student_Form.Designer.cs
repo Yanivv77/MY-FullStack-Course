@@ -59,7 +59,7 @@
             this.dataGridView_Cars.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView_Cars.Size = new System.Drawing.Size(673, 433);
             this.dataGridView_Cars.TabIndex = 0;
-
+            
             // 
             // textBoxName
             // 
@@ -173,7 +173,6 @@
             this.BTN_INSERT.TabIndex = 14;
             this.BTN_INSERT.Text = "Insert";
             this.BTN_INSERT.UseVisualStyleBackColor = false;
-
             // 
             // BTN_UPDATE
             // 
@@ -184,7 +183,6 @@
             this.BTN_UPDATE.TabIndex = 15;
             this.BTN_UPDATE.Text = "Update";
             this.BTN_UPDATE.UseVisualStyleBackColor = false;
-
             // 
             // BTN_DELETE
             // 
@@ -196,7 +194,6 @@
             this.BTN_DELETE.TabIndex = 16;
             this.BTN_DELETE.Text = "Delete";
             this.BTN_DELETE.UseVisualStyleBackColor = false;
-
             // 
             // BTN_SEARCH
             // 
@@ -207,9 +204,8 @@
             this.BTN_SEARCH.TabIndex = 17;
             this.BTN_SEARCH.Text = "Search";
             this.BTN_SEARCH.UseVisualStyleBackColor = false;
-
             // 
-            // Cars_Form
+            // Student_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -232,9 +228,8 @@
             this.Controls.Add(this.textBoxModel);
             this.Controls.Add(this.textBoxName);
             this.Controls.Add(this.dataGridView_Cars);
-            this.Name = "Cars_Form";
+            this.Name = "Student_Form";
             this.Text = "Form1";
-
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Cars)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
