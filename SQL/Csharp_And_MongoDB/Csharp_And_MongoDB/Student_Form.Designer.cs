@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView_Cars = new System.Windows.Forms.DataGridView();
+            this.dataGridView_Student = new System.Windows.Forms.DataGridView();
             this.textBoxName = new System.Windows.Forms.TextBox();
             this.textBoxModel = new System.Windows.Forms.TextBox();
             this.textBoxDescription = new System.Windows.Forms.TextBox();
@@ -45,21 +45,20 @@
             this.BTN_UPDATE = new System.Windows.Forms.Button();
             this.BTN_DELETE = new System.Windows.Forms.Button();
             this.BTN_SEARCH = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Cars)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Student)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView_Cars
+            // dataGridView_Student
             // 
-            this.dataGridView_Cars.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView_Cars.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_Cars.Location = new System.Drawing.Point(415, 12);
-            this.dataGridView_Cars.Name = "dataGridView_Cars";
-            this.dataGridView_Cars.RowHeadersWidth = 51;
-            this.dataGridView_Cars.RowTemplate.Height = 24;
-            this.dataGridView_Cars.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView_Cars.Size = new System.Drawing.Size(673, 433);
-            this.dataGridView_Cars.TabIndex = 0;
-            
+            this.dataGridView_Student.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView_Student.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_Student.Location = new System.Drawing.Point(415, 12);
+            this.dataGridView_Student.Name = "dataGridView_Student";
+            this.dataGridView_Student.RowHeadersWidth = 51;
+            this.dataGridView_Student.RowTemplate.Height = 24;
+            this.dataGridView_Student.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView_Student.Size = new System.Drawing.Size(673, 433);
+            this.dataGridView_Student.TabIndex = 0;
             // 
             // textBoxName
             // 
@@ -227,10 +226,10 @@
             this.Controls.Add(this.textBoxDescription);
             this.Controls.Add(this.textBoxModel);
             this.Controls.Add(this.textBoxName);
-            this.Controls.Add(this.dataGridView_Cars);
+            this.Controls.Add(this.dataGridView_Student);
             this.Name = "Student_Form";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Cars)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Student)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -238,7 +237,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView_Cars;
+        private System.Windows.Forms.DataGridView dataGridView_Student;
         private System.Windows.Forms.TextBox textBoxName;
         private System.Windows.Forms.TextBox textBoxModel;
         private System.Windows.Forms.TextBox textBoxDescription;

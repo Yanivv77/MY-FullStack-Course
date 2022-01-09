@@ -1,0 +1,13 @@
+use TsionetSchool
+
+db.createCollection('Students')
+
+
+db.Courses.insertMany([ { firstName : "Max" ,LastName : "Schwarzmueller" , "Courses": [ {"Course": "SQL"}, {"Course": "PowerShell"}, {"Course": "Linux"} ] },
+                        { firstName : "Manu" ,LastName : " Hayton" , "Courses": [ {"Course": ".net"}, {"Course":"Data Structures"}, {"Course": "Azure"} ] },
+                        { firstName : "Chris" ,LastName : "Sandeep" , "Courses": [ {"Course": "C#"}, {"Course": ".net"}, {"Course": "Azure"} ] },
+                        { firstName : "Sandeep" ,LastName : "Kumar" , "Courses": [ {"Course": "C#"}, {"Course": ".net"}, {"Course":"Azure"} ] },
+                        { firstName : "Maxim" ,LastName : "Max" , "Courses": [ {"Course": "PowerShell"}, {"Course": ".net"}, {"Course": "SQL"} ] },
+                        { firstName : "Daniel" ,LastName : "Daniel" , "Courses": [ {"Course": "SQL"}, {"Course": ".net"}, {"Course": "PowerShell"} ] },
+                        { firstName : "Jeff" ,LastName : "Kumar" , "Courses": [ {"Course": "C#"}, {"Course":"SQL"}, {"Course": "Azure"} ]} ])
+                     
