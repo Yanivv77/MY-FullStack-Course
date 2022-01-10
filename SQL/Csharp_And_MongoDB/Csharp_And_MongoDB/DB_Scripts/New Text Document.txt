@@ -3,7 +3,7 @@ use TsionetSchool
 db.createCollection('Students')
 
 
-db.Students.insertOne({ firstName : "Max" ,LastName : "Schwarzmueller"})
+
 
 
 db.Students.insertMany([ { firstName : "Max" ,LastName : "Schwarzmueller" , "Courses": [ {"CourseName": "SQL"}, {"CourseName": "PowerShell"}, {"CourseName": "Linux"} ] },
@@ -13,4 +13,9 @@ db.Students.insertMany([ { firstName : "Max" ,LastName : "Schwarzmueller" , "Cou
                         { firstName : "Maxim" ,LastName : "Max" , "Courses": [ {"CourseName": "PowerShell"}, {"CourseName": ".net"}, {"CourseName": "SQL"} ] },
                         { firstName : "Daniel" ,LastName : "Daniel" , "Courses": [ {"CourseName": "SQL"}, {"CourseName": ".net"}, {"CourseName": "PowerShell"} ] },
                         { firstName : "Jeff" ,LastName : "Kumar" , "Courses": [ {"CourseName": "C#"}, {"CourseName":"SQL"}, {"CourseName": "Azure"} ]} ])
+
+
+
+
+db.Students.insertOne({ firstName : "Max" ,LastName : "Schwarzmueller"})
                      
