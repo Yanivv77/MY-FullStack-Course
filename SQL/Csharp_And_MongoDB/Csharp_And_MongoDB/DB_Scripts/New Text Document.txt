@@ -3,11 +3,14 @@ use TsionetSchool
 db.createCollection('Students')
 
 
-db.Courses.insertMany([ { firstName : "Max" ,LastName : "Schwarzmueller" , "Courses": [ {"Course": "SQL"}, {"Course": "PowerShell"}, {"Course": "Linux"} ] },
-                        { firstName : "Manu" ,LastName : " Hayton" , "Courses": [ {"Course": ".net"}, {"Course":"Data Structures"}, {"Course": "Azure"} ] },
-                        { firstName : "Chris" ,LastName : "Sandeep" , "Courses": [ {"Course": "C#"}, {"Course": ".net"}, {"Course": "Azure"} ] },
-                        { firstName : "Sandeep" ,LastName : "Kumar" , "Courses": [ {"Course": "C#"}, {"Course": ".net"}, {"Course":"Azure"} ] },
-                        { firstName : "Maxim" ,LastName : "Max" , "Courses": [ {"Course": "PowerShell"}, {"Course": ".net"}, {"Course": "SQL"} ] },
-                        { firstName : "Daniel" ,LastName : "Daniel" , "Courses": [ {"Course": "SQL"}, {"Course": ".net"}, {"Course": "PowerShell"} ] },
-                        { firstName : "Jeff" ,LastName : "Kumar" , "Courses": [ {"Course": "C#"}, {"Course":"SQL"}, {"Course": "Azure"} ]} ])
+db.Students.insertOne({ firstName : "Max" ,LastName : "Schwarzmueller"})
+
+
+db.Students.insertMany([ { firstName : "Max" ,LastName : "Schwarzmueller" , "Courses": [ {"CourseName": "SQL"}, {"CourseName": "PowerShell"}, {"CourseName": "Linux"} ] },
+                        { firstName : "Manu" ,LastName : " Hayton" , "Courses": [ {"CourseName": ".net"}, {"CourseName":"Data Structures"}, {"CourseName": "Azure"} ] },
+                        { firstName : "Chris" ,LastName : "Sandeep" , "Courses": [ {"CourseName": "C#"}, {"CourseName": ".net"}, {"CourseName": "Azure"} ] },
+                        { firstName : "Sandeep" ,LastName : "Kumar" , "Courses": [ {"CourseName": "C#"}, {"CourseName": ".net"}, {"CourseName":"Azure"} ] },
+                        { firstName : "Maxim" ,LastName : "Max" , "Courses": [ {"CourseName": "PowerShell"}, {"CourseName": ".net"}, {"CourseName": "SQL"} ] },
+                        { firstName : "Daniel" ,LastName : "Daniel" , "Courses": [ {"CourseName": "SQL"}, {"CourseName": ".net"}, {"CourseName": "PowerShell"} ] },
+                        { firstName : "Jeff" ,LastName : "Kumar" , "Courses": [ {"CourseName": "C#"}, {"CourseName":"SQL"}, {"CourseName": "Azure"} ]} ])
                      

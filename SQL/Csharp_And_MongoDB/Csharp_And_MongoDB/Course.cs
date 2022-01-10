@@ -9,11 +9,19 @@ namespace Csharp_And_MongoDB
     internal class Course
     {
 
-        public object CourseName { get; set; }
+        public string CourseName { get; set; }
+
+
+
+        public Course(string str)
+        {
+            CourseName = str;
+        }
+
 
         public override string ToString()
         {
-            return CourseName.ToString();
+            return CourseName;
         }
 
     }
