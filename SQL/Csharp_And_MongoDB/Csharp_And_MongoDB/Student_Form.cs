@@ -26,9 +26,9 @@ namespace Csharp_And_MongoDB
         {
             InitializeComponent();
             client = new MongoClient("mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false");
-            database = client.GetDatabase("TsionetSchool");
-            collection = database.GetCollection<Student>("Students");
-            collection2 = database.GetCollection<BsonDocument>("Students");
+            database = client.GetDatabase("University");
+            collection = database.GetCollection<Student>("Student");
+            collection2 = database.GetCollection<BsonDocument>("Student");
             LoadStudentToGrid();
         }
 

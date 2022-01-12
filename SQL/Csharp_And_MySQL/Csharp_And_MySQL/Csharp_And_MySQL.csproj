@@ -89,16 +89,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cars_Form.cs">
+    <Compile Include="student_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cars_Form.Designer.cs">
-      <DependentUpon>Cars_Form.cs</DependentUpon>
+    <Compile Include="student_Form.Designer.cs">
+      <DependentUpon>student_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Cars_Form.resx">
-      <DependentUpon>Cars_Form.cs</DependentUpon>
+    <EmbeddedResource Include="student_Form.resx">
+      <DependentUpon>student_Form.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

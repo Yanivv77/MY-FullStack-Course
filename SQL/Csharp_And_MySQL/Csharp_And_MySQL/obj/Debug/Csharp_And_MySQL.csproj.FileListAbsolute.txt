@@ -25,9 +25,9 @@ C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\SQL\Csharp_And_MySQL\Csharp_
 C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\SQL\Csharp_And_MySQL\Csharp_And_MySQL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\SQL\Csharp_And_MySQL\Csharp_And_MySQL\obj\Debug\Csharp_And_MySQL.csproj.AssemblyReference.cache
 C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\SQL\Csharp_And_MySQL\Csharp_And_MySQL\obj\Debug\Csharp_And_MySQL.csproj.SuggestedBindingRedirects.cache
-C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\SQL\Csharp_And_MySQL\Csharp_And_MySQL\obj\Debug\Csharp_And_MySQL.Cars_Form.resources
 C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\SQL\Csharp_And_MySQL\Csharp_And_MySQL\obj\Debug\Csharp_And_MySQL.csproj.GenerateResource.cache
 C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\SQL\Csharp_And_MySQL\Csharp_And_MySQL\obj\Debug\Csharp_And_MySQL.csproj.CoreCompileInputs.cache
 C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\SQL\Csharp_And_MySQL\Csharp_And_MySQL\obj\Debug\Csharp_And_MySQL.csproj.CopyComplete
 C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\SQL\Csharp_And_MySQL\Csharp_And_MySQL\obj\Debug\Csharp_And_MySQL.exe
 C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\SQL\Csharp_And_MySQL\Csharp_And_MySQL\obj\Debug\Csharp_And_MySQL.pdb
+C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\SQL\Csharp_And_MySQL\Csharp_And_MySQL\obj\Debug\Csharp_And_MySQL.student_Form.resources

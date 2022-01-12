@@ -16,7 +16,7 @@ namespace Csharp_And_MySQL
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Cars_Form());
+            Application.Run(new student_Form());
         }
     }
 }
