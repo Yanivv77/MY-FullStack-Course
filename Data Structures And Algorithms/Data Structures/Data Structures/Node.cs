@@ -1,26 +1,31 @@
-﻿namespace Data_Structures
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Data_Structures
 {
     internal class Node
     {
-        public string _data { get; set; }
-        public Node next { get;  set; }
-        public Node prev { get; set; }
+        public String data;
+        public Node next;
+        public Node prev;
 
         public Node(string data)
         {
-            _data = data;
-            next = null;
-            prev = null;
+            this.data = data;
+            this.next = null;
+            this.prev = null;
         }
+
 
         public void DisplayNode()
         {
-            System.Console.Write("["+_data+"] ");
+            Console.WriteLine(data + " ");
+
         }
 
-        public override string ToString()
-        {
-            return "["+_data + "] " ;
-        }
+
     }
 }

@@ -1,21 +1,11 @@
 {
   "Version": 1,
   "ProjectMap": {
-    "60785530-7669-4c4e-b0b3-05e4d3e8c8cd": {
-      "ProjectGuid": "60785530-7669-4c4e-b0b3-05e4d3e8c8cd",
+    "18f7f45f-e720-4493-b50b-cf9dd808f42e": {
+      "ProjectGuid": "18f7f45f-e720-4493-b50b-cf9dd808f42e",
       "DisplayName": "Data Structures",
       "ColorIndex": 0
-    },
-    "445f6844-6114-4fe5-8d2d-e3b9fd01706d": {
-      "ProjectGuid": "445f6844-6114-4fe5-8d2d-e3b9fd01706d",
-      "DisplayName": "BinTree",
-      "ColorIndex": 1
-    },
-    "76296a28-b748-4fbf-aa8b-159e9af402b3": {
-      "ProjectGuid": "76296a28-b748-4fbf-aa8b-159e9af402b3",
-      "DisplayName": "BinTree",
-      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 1
 }

@@ -1,8 +1,0 @@
-C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Xml\Xml\bin\Debug\Xml.exe.config
-C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Xml\Xml\bin\Debug\Xml.exe
-C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Xml\Xml\bin\Debug\Xml.pdb
-C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Xml\Xml\obj\Debug\Xml.csproj.AssemblyReference.cache
-C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Xml\Xml\obj\Debug\Xml.csproj.SuggestedBindingRedirects.cache
-C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Xml\Xml\obj\Debug\Xml.csproj.CoreCompileInputs.cache
-C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Xml\Xml\obj\Debug\Xml.exe
-C:\Users\yaniv\OneDrive\Desktop\MY-FullStack-Course\C# .net\Xml\Xml\obj\Debug\Xml.pdb
