@@ -12,7 +12,7 @@ namespace Csharp_And_MySQL
             InitializeComponent();
         }
 
-        MySqlConnection connection = new MySqlConnection("datasource=localhost;port=3306;Initial Catalog='school';username=root;password=admin");
+        MySqlConnection connection = new MySqlConnection("Server=127.0.0.1;Port=3307;Database=PromoIt;Uid=root;Pwd=rootp");
         MySqlCommand command;
 
         public void openConnection()
@@ -34,7 +34,7 @@ namespace Csharp_And_MySQL
 
         private void Cars_Form_Load(object sender, EventArgs e)
         {
-            LoadCarsToGrid();
+           // LoadCarsToGrid();
 
         }
 
@@ -90,11 +90,24 @@ namespace Csharp_And_MySQL
         private void BTN_INSERT_Click(object sender, EventArgs e)
         {
 
-            string Insert = $"call insert_procedure( '{textBoxFirstName.Text}' ,  '{textBoxLastName.Text}', '{textBoxAge.Text}' )";
-            executeMyQuery(Insert);
-            LoadCarsToGrid();
+            AddBusiness("dfsdf", "dfsdf", "Business", "dfsdf");
+
+
+
+            //string Insert = $"call insert_procedure( '{textBoxFirstName.Text}' ,  '{textBoxLastName.Text}', '{textBoxAge.Text}' )";
+            //executeMyQuery(Insert);
+            //LoadCarsToGrid();
 
             
+
+        }
+
+        public void AddBusiness(string username, string passwrod, string usertype
+            , string name)
+        {
+
+            string AddBusiness = $"call AddBusiness_procedure ('{username}' ,'{passwrod}' , '{usertype}' ,'{name}');";
+            executeMyQuery(AddBusiness);
 
         }
 

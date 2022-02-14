@@ -124,7 +124,7 @@ namespace ExamHaim
                     int TotalDivorcePlusOne = dataPlusOne.DivMen + dataPlusOne.DivWomen;
                     if ( TotalDivorce > TotalDivorcePlusOne )
                     {
-                        Console.WriteLine("More divorces this year " + (num) + " this year more divorces : " + (TotalDivorce - TotalDivorcePlusOne));
+                        Console.WriteLine("More marrayed this year " + (num) + " this year more divorces : " + (TotalDivorce - TotalDivorcePlusOne));
                         
                     }
                     else

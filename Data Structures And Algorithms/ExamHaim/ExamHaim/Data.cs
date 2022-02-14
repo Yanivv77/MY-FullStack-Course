@@ -10,11 +10,11 @@ namespace ExamHaim
     {
         //תקופה  	נישאים-חתנים	נישאים-כלות  	מתגרשים-בעלים	מתגרשים-נשים
 
-        public int year;
-        public int marryMen;
-        public int marryWomen;
-        public int DivMen;
-        public int DivWomen;
+        public int year { get; set; }
+        public int marryMen { get; set; }
+        public int marryWomen { get; set; }
+        public int DivMen { get; set; }
+        public int DivWomen { get; set; }
 
 
         public void DisplayData()
